@@ -10,6 +10,11 @@
 			parent::__construct( 'ewf_widget_portfolio_filters', __('EWF - Project Filter', EWF_SETUP_THEME_DOMAIN), $widget_ops, $control_ops );
 		}
 		
+		/**
+         * Added missing variable assignments, before_widget, $after_widget, $before_title, $after_title
+		 * @param array $args
+		 * @param array $instance
+		 */
  
 		function widget( $args, $instance ) {
 			extract( $args );
@@ -18,6 +23,10 @@
 			$title = apply_filters('widget_title', $instance['title'] );
 			$show_parent =  $instance['show-parent'];
 			$extra_link =  $instance['extra-link'];
+			$before_widget  = '';
+			$after_widget   = '';
+			$before_title   = '';
+			$after_title    = '';
 			$full = 0;
 			
 			

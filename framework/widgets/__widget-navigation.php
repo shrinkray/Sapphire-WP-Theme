@@ -9,7 +9,12 @@
 			$control_ops = array( 'width' => 300, 'height' => 350, 'id_base' => 'ewf_widget_navigation' );
 			parent::__construct( 'ewf_widget_navigation', __('EWF - Navigation', EWF_SETUP_THEME_DOMAIN), $widget_ops, $control_ops );
 		}
-		 
+		
+		/**
+         * Added missing variable assignments, before_widget, $after_widget, $before_title, $after_title
+		 * @param array $args
+		 * @param array $instance
+		 */
 
 		function widget( $args, $instance ) {
 			extract( $args );
@@ -18,6 +23,10 @@
 			$title = apply_filters('widget_title', $instance['title'] );
 			$show_parent =  $instance['show-parent'];
 			$page_nav =  $instance['nav-page'];
+			$before_widget  = '';
+			$after_widget   = '';
+			$before_title   = '';
+			$after_title    = '';
 
 			echo $before_widget;
 

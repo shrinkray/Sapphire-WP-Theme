@@ -10,7 +10,12 @@
 			parent::__construct( 'ewf_widget_calltoaction', __('EWF - Call to action', EWF_SETUP_THEME_DOMAIN), $widget_ops, $control_ops );
 		}
 		
-
+		/**
+         * Added assignments for $before_widget and $after_widget
+         * This would be a wrapper but no content makes sense for it right now set to '' null;
+		 * @param array $args
+		 * @param array $instance
+		 */
 
 		function widget( $args, $instance ) {
 			extract( $args );
@@ -19,6 +24,8 @@
 			$description 	=  $instance['description'];
 			$button_title 	=  $instance['button-title'];
 			$button_link 	=  $instance['button-link'];
+			$before_widget  = '';
+			$after_widget   = '';
 
 			echo $before_widget;
 

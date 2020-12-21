@@ -10,7 +10,11 @@
 			parent::__construct( 'ewf_widget_brochure', __('EWF - Brochure', EWF_SETUP_THEME_DOMAIN), $widget_ops, $control_ops );
 		}
 		
-
+		/**
+         * Added missing variable assignments, before_widget, $after_widget, $before_title, $after_title
+		 * @param array $args
+		 * @param array $instance
+		 */
 
 		function widget( $args, $instance ) {
 			extract( $args );
@@ -19,6 +23,10 @@
 			$title = apply_filters('widget_title', $instance['title'] );
 			$brochure_url =  $instance['brochure-url'];
 			$brochure_title =  $instance['brochure-title'];
+			$before_widget  = '';
+			$after_widget   = '';
+			$before_title   = '';
+			$after_title    = '';
 
 			echo $before_widget;
 

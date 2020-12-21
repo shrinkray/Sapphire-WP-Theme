@@ -10,7 +10,11 @@
 			parent::__construct( 'ewf_widget_contact_info', __('EWF - Contact Info', EWF_SETUP_THEME_DOMAIN), $widget_ops, $control_ops );
 		}
 		
-
+		/**
+		 * Added missing variable assignments, before_widget, $after_widget, $before_title, $after_title
+		 * @param array $args
+		 * @param array $instance
+		 */
 
 		function widget( $args, $instance ) {
 			extract( $args );
@@ -20,6 +24,10 @@
 			$address =  $instance['address'];
 			$email =  $instance['email'];
 			$phone =  $instance['phone'];
+			$before_widget  = '';
+			$after_widget   = '';
+			$before_title   = '';
+			$after_title    = '';
 
 
 			echo $before_widget;

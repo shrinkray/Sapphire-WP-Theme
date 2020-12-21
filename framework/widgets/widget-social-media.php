@@ -10,7 +10,11 @@
 			parent::__construct( 'ewf_widget_social_media', __('EWF - Social Media', EWF_SETUP_THEME_DOMAIN), $widget_ops, $control_ops );
 		}
 		
-
+		/**
+         * Added missing variable assignments, before_widget, $after_widget, $before_title, $after_title
+		 * @param array $args
+		 * @param array $instance
+		 */
 
 		function widget( $args, $instance ) {
 			extract( $args );
@@ -26,6 +30,11 @@
 			$profile_tumblr 	=  $instance['profile_tumblr'];
 			$profile_instagram 	=  $instance['profile_instagram'];
 			$profile_rss 		=  $instance['profile_rss'];
+			
+			$before_widget  = '';
+			$after_widget   = '';
+			$before_title   = '';
+			$after_title    = '';
 
 
 			echo $before_widget;

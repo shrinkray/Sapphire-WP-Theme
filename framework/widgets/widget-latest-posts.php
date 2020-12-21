@@ -10,14 +10,22 @@
 			parent::__construct( 'ewf_widget_latest_posts', __('EWF - Latest Posts', EWF_SETUP_THEME_DOMAIN), $widget_ops, $control_ops );
 		}
 		
-
+		/**
+         * Added missing variable assignments, before_widget, $after_widget, $before_title, $after_title
+		 * @param array $args
+		 * @param array $instance
+		 */
 
 		function widget( $args, $instance ) {
 			extract( $args );
 			global $post;
 
 			$title = apply_filters('widget_title', $instance['title'] );
-			$items =  $instance['items']; 
+			$items =  $instance['items'];
+			$before_widget  = '';
+			$after_widget   = '';
+			$before_title   = '';
+			$after_title    = '';
 			
 			if ($items == null){
 				$items = 3;

@@ -9,7 +9,11 @@
 			parent::__construct( 'ewf_widget_contact_forms', __('EWF - Contact Form 7', EWF_SETUP_THEME_DOMAIN), $widget_ops, $control_ops );
 		}
 		
-
+		/**
+         * Added missing variable assignments, before_widget, $after_widget
+		 * @param array $args
+		 * @param array $instance
+		 */
 		function widget( $args, $instance ) {
 			extract( $args );
 			global $post;
@@ -17,6 +21,8 @@
 			$title = apply_filters('widget_title', $instance['title'] );
 			$str_title = null;
 			$form_id =  $instance['form_id'];
+			$before_widget  = '';
+			$after_widget   = '';
 
 			echo $before_widget;
 

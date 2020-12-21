@@ -10,12 +10,20 @@
 			parent::__construct( 'ewf_widget_flickr', __('EWF - Flickr', EWF_SETUP_THEME_DOMAIN), $widget_ops, $control_ops );
 		}
 		
-
+		/**
+         * Added missing variable assignments, before_widget, $after_widget, $before_title, $after_title
+		 * @param array $args
+		 * @param array $instance
+		 */
 
 		function widget( $args, $instance ) {
 			extract( $args );
 			global $post;
-
+			
+			$before_widget  = '';
+			$after_widget   = '';
+			$before_title   = '';
+			$after_title    = '';
 			$title = apply_filters('widget_title', $instance['title'] );
 			
 			$gallery_id =  $instance['gallery_id'];
