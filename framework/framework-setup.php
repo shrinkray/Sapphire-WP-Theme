@@ -54,14 +54,14 @@
 	include_once ('functions-sidebars.php'						);
 	
 	
-	# 	Widgets
-	#	
-	// include_once ('widgets/widget-navigation.php'				);
-	include_once ('widgets/widget-call-to-action.php'			);
-	include_once ('widgets/widget-latest-posts.php'				);
-	include_once ('widgets/widget-contact-form.php'				);
-	include_once ('widgets/widget-social-media.php'				);
-	include_once ('widgets/widget-flickr.php'					);
+	# Remove Unused theme widgets from theme (see line 271 below)
+	
+// include_once ('widgets/widget-navigation.php'				);
+//	include_once ('widgets/widget-call-to-action.php'			);
+//	include_once ('widgets/widget-latest-posts.php'				);
+//	include_once ('widgets/widget-contact-form.php'				);
+//	include_once ('widgets/widget-social-media.php'				);
+//	include_once ('widgets/widget-flickr.php'					);
 	
 		
 	#	Post & Template handles
@@ -267,17 +267,20 @@
 			var themePath = "'.get_template_directory_uri().'";
 		</script>';
 	}
-
-	function ewf_load_widgets(){ 
-		
-		// register_widget( 'ewf_widget_contact_info' 	);
-		// register_widget( 'ewf_widget_navigation' 	);
-		register_widget( 'ewf_widget_latest_posts' 	);
-		register_widget( 'ewf_widget_contact_forms' );
-		register_widget( 'ewf_widget_social_media' 	);
-		register_widget( 'ewf_widget_flickr' 		);
-		register_widget( 'ewf_widget_calltoaction' 	);
-		
+	
+	/**
+	 * Remove unused theme widgets from active theme
+	 */
+	function ewf_load_widgets(){
+//
+//		// register_widget( 'ewf_widget_contact_info' 	);
+//		// register_widget( 'ewf_widget_navigation' 	);
+//		register_widget( 'ewf_widget_latest_posts' 	);
+//		register_widget( 'ewf_widget_contact_forms' );
+//		register_widget( 'ewf_widget_social_media' 	);
+//		register_widget( 'ewf_widget_flickr' 		);
+//		register_widget( 'ewf_widget_calltoaction' 	);
+//
 	}
 	
 
