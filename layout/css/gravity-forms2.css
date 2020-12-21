@@ -1,0 +1,206 @@
+/**
+ * /*
+ * Added to customize styling for Contact Us forms
+ * GRM 11/6/2020
+ *
+ * @format css
+ */
+
+/* Classes in code element */
+
+/* Classes in  element */
+.gform_wrapper .gform_body .gform_fields {
+	background-color: white;
+	border: 0;
+	color: rgb(71, 77, 93);
+	font-family: "open sans", arial, sans-serif;
+}
+
+
+
+
+/* Contact Us Form */
+.gform_wrapper form {
+  display: grid;
+}
+
+.gform_confirmation_wrapper.p2w-contact-us,
+.gform_wrapper .gform_footer,
+.gform_wrapper .gform_body {
+  display: grid;
+  justify-content: center;
+/*   width: 98vw; */
+}
+
+.gform_confirmation_message_1 {
+  width: 70vw;
+}
+
+/* Field Labels */
+.gform_wrapper label.gfield_label {
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+
+/* Column width */
+.gform_wrapper .top_label input.medium {
+  width: 90%;
+}
+
+/* Top Address box */
+.p2w_info_box {
+  display: grid;
+}
+
+/* Template Cols (desktop) */
+.p2w_info_box .row_phone,
+.p2w_info_box .row_email,
+.p2w_info_box .row_support,
+.p2w_info_box .row_address {
+  display: grid;
+  grid-template-columns: 120px auto;
+}
+
+/* Two Col layout for desktop */
+.p2w-contact-us_wrapper .p2w-contact-us ul#gform_fields_1 {
+  display: grid;
+  grid-template-columns: 400px auto;
+  justify-content: center;
+  grid-template-areas: 'address address' 'name list' 'email list' 'company list' 'job comments' 'phone comments' 'use comments';
+}
+
+@media screen and (max-width: 855px) {
+  /* Template Cols (tablet) */
+  .p2w-contact-us_wrapper .p2w-contact-us ul#gform_fields_1 {
+    grid-template-columns: 2fr 1fr;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  /* Template Columns (mobile) */
+  .p2w-contact-us_wrapper .p2w-contact-us ul#gform_fields_1 {
+    grid-template-columns: 1fr;
+    grid-template-areas: 'address' 'name' 'email' 'company' 'job' 'phone' 'use' 'list' 'comments';
+    grid-column-gap: 4vw;
+  }
+
+  /* Outer containers */
+  .gform_wraper .gform_body,
+  .gform_wrapper .gform_footer {
+    display: grid;
+    max-width: 100vw;
+    margin: 0 auto;
+  }
+
+  /* Confirmation */
+  .gform_confirmation_message_1 {
+    width: 90vw;
+  }
+}
+
+/*Special Name Field Styles */
+#input_1_8 > span > input {
+  margin-bottom: 4px;
+}
+
+/* Left side  */
+.gform_wrapper .gform_body .gform_fields #field_1_2 {
+    padding: 0;
+    background-color: #fafafa;
+    border: 1px solid #ccc;
+    
+}
+#field_1_2 div:nth-child(even) {
+    background-color: #f3f3f3;
+}
+#field_1_2 div {
+    padding: 0.6rem 0.8rem;
+}
+
+
+.gform_wrapper .gform_body .gform_fields #field_1_2 {
+  grid-area: address;
+}
+
+.gform_wrapper div.gform_body ul.gform_fields #field_1_8 {
+  grid-area: name;
+  width: 90%;
+}
+
+.gform_wrapper div.gform_body ul.gform_fields #field_1_7 {
+  grid-area: email;
+}
+
+.gform_wrapper div.gform_body ul.gform_fields #field_1_10 {
+  grid-area: company;
+}
+
+.gform_wrapper div.gform_body ul.gform_fields #field_1_11 {
+  grid-area: job;
+}
+
+.gform_wrapper div.gform_body ul.gform_fields #field_1_12 {
+  grid-area: phone;
+}
+
+.gform_wrapper div.gform_body ul.gform_fields #field_1_15 {
+  grid-area: use;
+}
+
+/* Right side */
+.gform_wrapper div.gform_body ul.gform_fields #field_1_14 {
+  grid-area: list;
+}
+.gform_wrapper div.gform_body ul.gform_fields #field_1_16 {
+  grid-area: comments;
+}
+/* Text area */
+.gform_wrapper textarea.medium {
+  height: 100px;
+  max-width: 80vw;
+}
+/* Yes No Radios */
+.gform_wrapper .top_label li ul.gfield_radio {
+  display: flex;
+}
+
+.gform_wrapper .gfield_radio li {
+  display: flex;
+  margin-right: 1rem;
+}
+
+.choice_1_15_0 > input,
+.choice_1_15_1 > input {
+  margin-bottom: 0;
+}
+
+/* Checkbox styles */
+.gform_wrapper ul.gfield_checkbox li {
+  display: flex;
+}
+
+.gform_wrapper .gfield_checkbox li label {
+  margin: 2px 0 0 4px;
+}
+
+/* Footer and submit styles */
+.gform_wrapper .gform_footer input#gform_submit_button_1 {
+  justify-self: center;
+  width: 200px;
+  font-size: 1.2em;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 2px;
+  background: #d89228;
+  color: #fff !important;
+  padding: 0.3em 1.3em 0.38em;
+  margin: 0 0.5em 0.4em 0;
+  transition: 0.5s all;
+}
+
+.gform_wrapper .gform_footer input.button,
+.gform_wrapper .gform_footer input#gform_submit_button_1:hover {
+  text-decoration: none;
+  background: #69973f;
+}

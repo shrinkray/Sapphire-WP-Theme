@@ -1,0 +1,357 @@
+/**
+ * Name: grid.css
+ *	
+ *	-
+ *
+ *	T.O.C
+ *	
+ *	#Base Grid
+ *  #Large Display
+ *	#Tablet (Portrait)
+ *  #Mobile (Portrait and landscape)
+ *  #Align
+ *	#Responsive Images and embeds
+ *	#Clearing
+ *  #ResponsiveFormInputs
+ */
+ 
+/* ==========================================================================
+   #Base Grid
+   ========================================================================== */
+
+	.ewf-row { 
+		position: relative; 
+		width: 940px; 
+		margin: 0 auto;
+		-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+				box-sizing: border-box;
+	}
+	
+	.ewf-row .ewf-row { 
+		width: auto; 
+		margin: 0;
+	 }
+
+	.ewf-full-width-section { margin-bottom: 40px; }
+	
+	/**
+ 	 * 1. Full width sections insert a .ewf-row directly into it so we made this hack to make it 100%
+ 	 */
+	 
+	.ewf-full-width-section > .ewf-row { width: 100%; /* 1 */ }
+	
+	.ewf-full-width-section  .ewf-row .ewf-row { 
+		width: 940px; 
+		margin: 0 auto; 
+	}
+	
+	.ewf-full-width-section  .ewf-row .ewf-row  .ewf-row{ width:auto; }	
+	
+	/*  */
+	
+ 	.ewf-span1, 
+	.ewf-span2, 
+	.ewf-span3, 
+	.ewf-span4, 
+	.ewf-span5, 
+	.ewf-span6, 
+	.ewf-span7, 
+	.ewf-span8, 
+	.ewf-span9, 
+	.ewf-span10, 
+	.ewf-span11, 
+	.ewf-span12 { 
+		float: left; 
+		-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+				box-sizing: border-box;
+	}
+	
+	.ewf-span1 { 
+		width: 6.382978723404255%;  
+		margin-left: 2.127659574468085%; 
+	}
+	
+	.ewf-span2 { 
+		width: 14.893617021276595%; 
+		margin-left: 2.127659574468085%; 
+	}
+	
+	.ewf-span3 { 
+		width: 23.404255319148934%; 
+		margin-left: 2.127659574468085%; 
+	}
+	
+	.ewf-span4 { 
+		width: 31.914893617021278%;
+		margin-left: 2.127659574468085%; 
+	}
+	
+	.ewf-span5 { 
+		width: 40.42553191489362%; 
+		margin-left: 2.127659574468085%; 
+	}
+	
+	.ewf-span6 { 
+		width: 48.93617021276595%; 
+		margin-left: 2.127659574468085%; 
+	}
+	
+	.ewf-span7 { 
+		width: 57.44680851063829%; 
+		margin-left: 2.127659574468085%; 
+	}
+	
+	.ewf-span8 { 
+		width: 65.95744680851064%; 
+		margin-left: 2.127659574468085%; 
+	}
+	
+	.ewf-span9 { 
+		width: 74.46808510638297%; 
+		margin-left: 2.127659574468085%; 
+	}
+	
+	.ewf-span10 { 
+		width: 82.97872340425532%; 
+		margin-left: 2.127659574468085%; 
+	}
+	
+	.ewf-span11 { 
+		width: 91.48936170212765%; 
+		margin-left: 2.127659574468085%; 
+	}
+	
+	.ewf-span12 { 
+		width: 100%; 
+		margin-left: 2.127659574468085%; 
+	}
+	
+	.ewf-span1:first-child, 
+	.ewf-span2:first-child, 
+	.ewf-span3:first-child, 
+	.ewf-span4:first-child, 
+	.ewf-span5:first-child, 
+	.ewf-span6:first-child, 
+	.ewf-span7:first-child, 
+	.ewf-span8:first-child, 
+	.ewf-span9:first-child, 
+	.ewf-span10:first-child, 
+	.ewf-span11:first-child, 
+	.ewf-span12:first-child { margin-left: 0; }
+ 
+	.visible-phone { display: none !important; }
+	.visible-tablet { display: none !important; }
+	.hidden-desktop { display: none !important; }
+	.visible-desktop { display: inherit !important; } 
+
+
+/* ==========================================================================
+   #Large Display
+   ========================================================================== */
+
+	@media (min-width: 1400px) {
+	
+		/*
+		.ewf-full-width-section  .ewf-row .ewf-row,
+		.ewf-row { width: 1170px; }
+		*/
+	
+	}
+ 	
+/* ==========================================================================
+   #Tablet (Portrait)
+   ========================================================================== */
+
+	@media (min-width: 768px) and (max-width: 979px) {
+		
+		.ewf-full-width-section  .ewf-row .ewf-row,
+		.ewf-row { width: 705px; }
+		
+		.hidden-desktop { display: inherit !important; } 
+		.visible-desktop { display: none !important; }
+		.visible-tablet { display: inherit !important; } 
+		.hidden-tablet { display: none !important; }
+		
+	}
+
+/* ==========================================================================
+   #Mobile (Portrait and Landscape )
+   ========================================================================== */
+
+	@media (max-width: 767px) {
+		
+		.ewf-full-width-section  .ewf-row .ewf-row,
+		.ewf-row { width: auto; }
+		
+		.ewf-span1,
+		.ewf-span2,
+		.ewf-span3,
+		.ewf-span4,
+		.ewf-span5,
+		.ewf-span6,
+		.ewf-span7,
+		.ewf-span8,
+		.ewf-span9,
+		.ewf-span10,
+		.ewf-span11,
+		.ewf-span12 { 
+			float: none;
+			display: block;
+			width: 100%;
+			margin-left: 0;
+		}
+		
+		.ewf-full-width-section  .ewf-row .ewf-row, 
+		.ewf-row { padding: 0 20px; }
+
+		.ewf-full-width-section  .ewf-row .ewf-row  .ewf-row , 
+		.ewf-row .ewf-row { 
+			width: auto; 
+			padding: 0; 
+			margin: 0; 
+		}
+		
+		
+		
+		.hidden-desktop { display: inherit !important; }
+		.visible-desktop { display: none !important; }
+		.visible-phone { display: inherit !important; }
+		.hidden-phone { display: none !important; }
+		
+	}
+	
+/* ==========================================================================
+   #Align
+   ========================================================================== */
+
+	.float-left { float: left; }
+	.float-right { float: right; }
+
+/* ==========================================================================
+   #Responsive Images and Embeds
+   ========================================================================== */
+
+	.responsive-img { 
+		max-width: 100%; 
+		height: auto; 
+	}
+	
+	/**
+ 	 * 1. 16/9 ratio
+ 	 */
+	 
+	.responsive-embed {
+		position: relative;
+		overflow: hidden;
+		height: 0;
+		padding: 0;
+		padding-bottom: 56.25%; /* 1 */	
+		margin-bottom: 20px;
+	}
+
+	.responsive-embed iframe,
+	.responsive-embed object,
+	.responsive-embed embed {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+
+/* ==========================================================================
+   #Clearing
+   ========================================================================== */
+
+	/**
+ 	 * Automatically Clear Fix ewf-rows
+ 	 */
+	
+	.ewf-full-width-section:after,	
+	.ewf-row:after {
+		visibility: hidden;
+		display: block;
+		font-size: 0;
+		content: " ";
+		clear: both;
+		height: 0;
+	}
+
+	/**
+ 	 * Clear Fix hack
+	 * Usage:  add  class="fixed"  to div's that have floated elements in them
+ 	 */
+	 
+	.fixed:after {
+		visibility: hidden;
+		display: block;
+		font-size: 0;
+		content: " ";
+		clear: both;
+		height: 0;
+	}
+	
+	/**
+ 	 * Clear content
+	 * Usage:  <br class="clear"> 
+ 	 */	
+	 
+	.clear {
+      clear: both;
+      display: block;
+      overflow: hidden;
+      visibility: hidden;
+      width: 0;
+      height: 0;
+	} 
+	
+/* ==========================================================================
+   #ResponsiveFormInputs
+   ========================================================================== */
+	
+	/**
+	 * 1. Reset float inherited from .ewf-span*	
+ 	 * 2. Reset margin-left inherited from .ewf-span*
+ 	 */
+	 
+	input.ewf-span1,
+	textarea.ewf-span1,
+	select.ewf-span1,
+	input.ewf-span2,
+	textarea.ewf-span2,
+	select.ewf-span2,
+	input.ewf-span3,
+	textarea.ewf-span3,
+	select.ewf-span3,
+	input.ewf-span4,
+	textarea.ewf-span4,
+	select.ewf-span4,
+	input.ewf-span5,
+	textarea.ewf-span5,
+	select.ewf-span5,
+	input.ewf-span6,
+	textarea.ewf-span6,
+	select.ewf-span6,
+	input.ewf-span7,
+	textarea.ewf-span7,
+	select.ewf-span7,
+	input.ewf-span8,
+	textarea.ewf-span8,
+	select.ewf-span8,
+	input.ewf-span9,
+	textarea.ewf-span9,
+	select.ewf-span9,
+	input.ewf-span10,
+	textarea.ewf-span10,
+	select.ewf-span10,
+	input.ewf-span11,
+	textarea.ewf-span11,
+	select.ewf-span11,
+	input.ewf-span12,
+	textarea.ewf-span12,
+	select.ewf-span12 {
+		float: none; 	/* 1 */
+		margin-left: 0; /* 2 */
+	}

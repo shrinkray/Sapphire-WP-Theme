@@ -1,0 +1,3241 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Sapphire WordPress v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-06-09 10:48:38+0000\n"
+"Last-Translator: ngabyn <ngabyn@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:56
+#@ sapphire-wp
+msgid "Error 404 - Page not found!"
+msgstr ""
+
+#: archive.php:17
+#: comments.php:78
+#@ sapphire-wp
+msgid "Viewing posts categorised under"
+msgstr ""
+
+#: archive.php:25
+#@ sapphire-wp
+msgid "Showing posts from tagged with"
+msgstr ""
+
+#: archive.php:46
+#@ sapphire-wp
+msgid "Viewing posts from"
+msgstr ""
+
+#: comments.php:16
+#@ sapphire-wp
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: comments.php:34
+#@ sapphire-wp
+msgid "Comments"
+msgstr ""
+
+#: comments.php:46
+#@ sapphire-wp
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:47
+#@ sapphire-wp
+msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
+msgstr ""
+
+#: comments.php:48
+#@ sapphire-wp
+msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: comments.php:60
+#@ sapphire-wp
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:73
+#@ sapphire-wp
+msgid "Leave a Comment"
+msgstr ""
+
+#: comments.php:74
+#@ sapphire-wp
+msgid "Your name"
+msgstr ""
+
+#: comments.php:75
+#@ sapphire-wp
+msgid "Your Email Adress"
+msgstr ""
+
+#: comments.php:76
+#: framework/composer/components/vc_ewf_message_box.php:64
+#@ sapphire-wp
+msgid "Message"
+msgstr ""
+
+#: comments.php:77
+#@ sapphire-wp
+msgid "Send!"
+msgstr ""
+
+#: comments.php:92
+#, php-format
+#@ sapphire-wp
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: comments.php:98
+#, php-format
+#@ sapphire-wp
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out?</a>"
+msgstr ""
+
+#: comments.php:105
+#@ sapphire-wp
+msgid "Your email address will not be published."
+msgstr ""
+
+#: comments.php:109
+#, php-format
+#@ sapphire-wp
+msgid "You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags and attributes: %s"
+msgstr ""
+
+#: comments.php:130
+#@ sapphire-wp
+msgid "Website"
+msgstr ""
+
+#: comments.php:137
+#@ sapphire-wp
+msgid "Leave a Reply"
+msgstr ""
+
+#: comments.php:138
+#, php-format
+#@ sapphire-wp
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: comments.php:139
+#@ sapphire-wp
+msgid "Cancel Reply"
+msgstr ""
+
+#: footer.php:83
+#: framework/functions-sidebars.php:21
+#@ sapphire-wp
+msgid "Footer bottom widget area left"
+msgstr ""
+
+#: footer.php:93
+#: framework/functions-sidebars.php:22
+#@ sapphire-wp
+msgid "Footer bottom widget area right"
+msgstr ""
+
+#: framework/__functions-type-slide.php:31
+#: framework/composer/components/__vc_ewf_page_slider.php:157
+#: framework/composer/components/__vc_ewf_slider_case_studies.php:164
+#@ sapphire-wp
+msgid "Slides"
+msgstr ""
+
+#: framework/__functions-type-slide.php:32
+#@ sapphire-wp
+msgid "Slide"
+msgstr ""
+
+#: framework/__functions-type-slide.php:33
+#: framework/__functions-type-study.php:33
+#: framework/functions-type-project.php:776
+#@ sapphire-wp
+msgid "Add New"
+msgstr ""
+
+#: framework/__functions-type-slide.php:34
+#@ sapphire-wp
+msgid "Add New Slide"
+msgstr ""
+
+#: framework/__functions-type-slide.php:35
+#: framework/__functions-type-study.php:35
+#: framework/functions-blog.php:765
+#: framework/functions-blog.php:785
+#: framework/functions-type-project.php:778
+#@ sapphire-wp
+msgid "Edit"
+msgstr ""
+
+#: framework/__functions-type-slide.php:36
+#@ sapphire-wp
+msgid "Edit Slide"
+msgstr ""
+
+#: framework/__functions-type-slide.php:37
+#@ sapphire-wp
+msgid "New Slide"
+msgstr ""
+
+#: framework/__functions-type-slide.php:38
+#: framework/__functions-type-slide.php:39
+#: framework/__functions-type-study.php:39
+#@ sapphire-wp
+msgid "View Slide"
+msgstr ""
+
+#: framework/__functions-type-slide.php:40
+#@ sapphire-wp
+msgid "Search Slides"
+msgstr ""
+
+#: framework/__functions-type-slide.php:41
+#@ sapphire-wp
+msgid "No slides found"
+msgstr ""
+
+#: framework/__functions-type-slide.php:42
+#@ sapphire-wp
+msgid "No slides found in Trash"
+msgstr ""
+
+#: framework/__functions-type-slide.php:43
+#@ sapphire-wp
+msgid "Parent slides"
+msgstr ""
+
+#: framework/__functions-type-slide.php:58
+#: framework/__functions-type-study.php:58
+#@ sapphire-wp
+msgid "Categories"
+msgstr ""
+
+#: framework/__functions-type-slide.php:64
+#@ sapphire-wp
+msgid "Slide text"
+msgstr ""
+
+#: framework/__functions-type-slide.php:97
+#: framework/composer/components/__vc_ewf_our_process.php:44
+#: framework/composer/components/__vc_ewf_service.php:8
+#: framework/composer/components/__vc_ewf_service.php:54
+#: framework/composer/components/__vc_ewf_service.php:56
+#: framework/composer/components/__vc_ewf_service_overview.php:8
+#: framework/composer/components/__vc_ewf_service_overview.php:48
+#: framework/composer/components/__vc_ewf_service_overview.php:50
+#: framework/composer/components/vc_ewf_headline.php:39
+#: framework/composer/components/vc_ewf_iconbox.php:8
+#: framework/composer/components/vc_ewf_iconbox.php:133
+#: framework/composer/components/vc_ewf_iconbox.php:135
+#: framework/composer/components/vc_ewf_milestone.php:8
+#: framework/composer/components/vc_ewf_milestone.php:40
+#: framework/composer/components/vc_ewf_milestone.php:42
+#: framework/composer/components/vc_ewf_piechart.php:47
+#: framework/composer/components/vc_ewf_process_horizontal.php:86
+#: framework/composer/components/vc_ewf_process_horizontal.php:88
+#: framework/composer/components/vc_ewf_process_vertical.php:84
+#: framework/composer/components/vc_ewf_process_vertical.php:86
+#: framework/composer/components/vc_ewf_progress.php:44
+#: framework/composer/components/vc_ewf_progress.php:46
+#: framework/modules/ewf-header/ewf-modHeader.php:769
+#@ sapphire-wp
+msgid "Title"
+msgstr ""
+
+#: framework/__functions-type-slide.php:102
+#: framework/composer/components/vc_ewf_piechart.php:45
+#: framework/composer/components/vc_ewf_testimonial.php:75
+#: framework/composer/components/vc_ewf_testimonial.php:77
+#: framework/composer/components/vc_ewf_testimonial_adv.php:73
+#: framework/composer/components/vc_ewf_testimonial_adv.php:75
+#: framework/modules/ewf-header/ewf-modHeader.php:852
+#@ sapphire-wp
+msgid "Description"
+msgstr ""
+
+#: framework/__functions-type-study.php:31
+#@ sapphire-wp
+msgid "Case Studies"
+msgstr ""
+
+#: framework/__functions-type-study.php:32
+#@ sapphire-wp
+msgid "Case Study"
+msgstr ""
+
+#: framework/__functions-type-study.php:34
+#@ sapphire-wp
+msgid "Add New Case Study"
+msgstr ""
+
+#: framework/__functions-type-study.php:36
+#@ sapphire-wp
+msgid "Edit Case Study"
+msgstr ""
+
+#: framework/__functions-type-study.php:37
+#@ sapphire-wp
+msgid "New Case Study"
+msgstr ""
+
+#: framework/__functions-type-study.php:38
+#@ sapphire-wp
+msgid "View Case Study"
+msgstr ""
+
+#: framework/__functions-type-study.php:40
+#@ sapphire-wp
+msgid "Search Case Studies"
+msgstr ""
+
+#: framework/__functions-type-study.php:41
+#@ sapphire-wp
+msgid "No studies found"
+msgstr ""
+
+#: framework/__functions-type-study.php:42
+#@ sapphire-wp
+msgid "No studies found in Trash"
+msgstr ""
+
+#: framework/__functions-type-study.php:43
+#@ sapphire-wp
+msgid "Parent studies"
+msgstr ""
+
+#: framework/__functions-type-study.php:65
+#@ sapphire-wp
+msgid "Slide details"
+msgstr ""
+
+#: framework/__functions-type-study.php:98
+#: framework/composer/components/__vc_ewf_service_overview.php:75
+#@ sapphire-wp
+msgid "Link title"
+msgstr ""
+
+#: framework/__functions-type-study.php:101
+#@ sapphire-wp
+msgid "Link URL"
+msgstr ""
+
+#: framework/admin/admin-customizer.php:17
+#@ sapphire-wp
+msgid "Header background"
+msgstr ""
+
+#: framework/admin/admin-customizer.php:24
+#@ sapphire-wp
+msgid "Footer background"
+msgstr ""
+
+#: framework/admin/admin-customizer.php:30
+#@ sapphire-wp
+msgid "Credits bar background"
+msgstr ""
+
+#: framework/admin/admin-options.php:70
+#: framework/admin/admin-options.php:76
+#@ sapphire-wp
+msgid "Favicon"
+msgstr ""
+
+#: framework/admin/admin-options.php:77
+#@ sapphire-wp
+msgid "Upload your favicon"
+msgstr ""
+
+#: framework/admin/admin-options.php:81
+#: framework/admin/admin-options.php:872
+#: framework/modules/ewf-layout/ewf-modLayout.php:306
+#@ sapphire-wp
+msgid "Layout"
+msgstr ""
+
+#: framework/admin/admin-options.php:87
+#@ sapphire-wp
+msgid "Boxed in"
+msgstr ""
+
+#: framework/admin/admin-options.php:93
+#@ sapphire-wp
+msgid "Full Width"
+msgstr ""
+
+#: framework/admin/admin-options.php:98
+#@ sapphire-wp
+msgid "Layout style"
+msgstr ""
+
+#: framework/admin/admin-options.php:99
+#@ sapphire-wp
+msgid "Select the layout"
+msgstr ""
+
+#: framework/admin/admin-options.php:106
+#@ sapphire-wp
+msgid "Page not found"
+msgstr ""
+
+#: framework/admin/admin-options.php:107
+#@ sapphire-wp
+msgid "Select the 404 page from your existing pages"
+msgstr ""
+
+#: framework/admin/admin-options.php:116
+#@ sapphire-wp
+msgid "Content width"
+msgstr ""
+
+#: framework/admin/admin-options.php:117
+#@ sapphire-wp
+msgid "Select the content width"
+msgstr ""
+
+#: framework/admin/admin-options.php:126
+#@ sapphire-wp
+msgid "Background"
+msgstr ""
+
+#: framework/admin/admin-options.php:127
+#@ sapphire-wp
+msgid "Adjust background settings"
+msgstr ""
+
+#: framework/admin/admin-options.php:154
+#@ sapphire-wp
+msgid "Includes"
+msgstr ""
+
+#: framework/admin/admin-options.php:158
+#@ sapphire-wp
+msgid "Google Analytics"
+msgstr ""
+
+#: framework/admin/admin-options.php:159
+#@ sapphire-wp
+msgid "Paste the analytics code"
+msgstr ""
+
+#: framework/admin/admin-options.php:165
+#@ sapphire-wp
+msgid "Extra CSS Code"
+msgstr ""
+
+#: framework/admin/admin-options.php:166
+#@ sapphire-wp
+msgid "Paste extra css code here"
+msgstr ""
+
+#: framework/admin/admin-options.php:179
+#@ sapphire-wp
+msgid "Use custom typography"
+msgstr ""
+
+#: framework/admin/admin-options.php:180
+#@ sapphire-wp
+msgid "You can overwrite custom fonts"
+msgstr ""
+
+#: framework/admin/admin-options.php:185
+#@ sapphire-wp
+msgid "Font - Body"
+msgstr ""
+
+#: framework/admin/admin-options.php:191
+#@ sapphire-wp
+msgid "Font family"
+msgstr ""
+
+#: framework/admin/admin-options.php:192
+#@ sapphire-wp
+msgid "Set the font of the body"
+msgstr ""
+
+#: framework/admin/admin-options.php:205
+#@ sapphire-wp
+msgid "Font size"
+msgstr ""
+
+#: framework/admin/admin-options.php:206
+#@ sapphire-wp
+msgid "Set fize of the font"
+msgstr ""
+
+#: framework/admin/admin-options.php:214
+#@ sapphire-wp
+msgid "Line height"
+msgstr ""
+
+#: framework/admin/admin-options.php:215
+#@ sapphire-wp
+msgid "Set the font line height"
+msgstr ""
+
+#: framework/admin/admin-options.php:223
+#@ sapphire-wp
+msgid "Margin bottom"
+msgstr ""
+
+#: framework/admin/admin-options.php:224
+#@ sapphire-wp
+msgid "Set the bottom spacing"
+msgstr ""
+
+#: framework/admin/admin-options.php:230
+#@ sapphire-wp
+msgid "<strong>Font</strong> - Headings"
+msgstr ""
+
+#: framework/admin/admin-options.php:235
+#@ sapphire-wp
+msgid "<strong>Font</strong> - Navigation"
+msgstr ""
+
+#: framework/admin/admin-options.php:250
+#@ sapphire-wp
+msgid "Header logo"
+msgstr ""
+
+#: framework/admin/admin-options.php:251
+#@ sapphire-wp
+msgid "Upload logo in the header"
+msgstr ""
+
+#: framework/admin/admin-options.php:257
+#@ sapphire-wp
+msgid "Sticky header"
+msgstr ""
+
+#: framework/admin/admin-options.php:258
+#@ sapphire-wp
+msgid "Keep the header visible after scrolling"
+msgstr ""
+
+#: framework/admin/admin-options.php:271
+#@ sapphire-wp
+msgid "Footer section"
+msgstr ""
+
+#: framework/admin/admin-options.php:272
+#@ sapphire-wp
+msgid "Show footer section at the bottom"
+msgstr ""
+
+#: framework/admin/admin-options.php:279
+#@ sapphire-wp
+msgid "Footer columns"
+msgstr ""
+
+#: framework/admin/admin-options.php:280
+#@ sapphire-wp
+msgid "Select the number of columns"
+msgstr ""
+
+#: framework/admin/admin-options.php:286
+#@ sapphire-wp
+msgid "Footer sub"
+msgstr ""
+
+#: framework/admin/admin-options.php:287
+#@ sapphire-wp
+msgid "Show sub footer section at the bottom"
+msgstr ""
+
+#: framework/admin/admin-options.php:300
+#@ sapphire-wp
+msgid "Use custom colors"
+msgstr ""
+
+#: framework/admin/admin-options.php:301
+#@ sapphire-wp
+msgid "You can overwrite the default color scheme"
+msgstr ""
+
+#: framework/admin/admin-options.php:307
+#@ sapphire-wp
+msgid "Accent color #1"
+msgstr ""
+
+#: framework/admin/admin-options.php:308
+#: framework/admin/admin-options.php:316
+#: framework/admin/admin-options.php:325
+#: framework/admin/admin-options.php:333
+#: framework/admin/admin-options.php:341
+#: framework/admin/admin-options.php:349
+#: framework/admin/admin-options.php:357
+#: framework/admin/admin-options.php:365
+#: framework/admin/admin-options.php:373
+#: framework/admin/admin-options.php:381
+#: framework/admin/admin-options.php:389
+#: framework/admin/admin-options.php:397
+#: framework/admin/admin-options.php:405
+#: framework/admin/admin-options.php:413
+#@ sapphire-wp
+msgid "Specify the color you want to use."
+msgstr ""
+
+#: framework/admin/admin-options.php:315
+#@ sapphire-wp
+msgid "Accent Color #1 Hover"
+msgstr ""
+
+#: framework/admin/admin-options.php:324
+#@ sapphire-wp
+msgid "Accent color #2"
+msgstr ""
+
+#: framework/admin/admin-options.php:332
+#@ sapphire-wp
+msgid "Accent color #2 Hover"
+msgstr ""
+
+#: framework/admin/admin-options.php:340
+#@ sapphire-wp
+msgid "Header top color"
+msgstr ""
+
+#: framework/admin/admin-options.php:348
+#@ sapphire-wp
+msgid "Header top border color"
+msgstr ""
+
+#: framework/admin/admin-options.php:356
+#@ sapphire-wp
+msgid "Header top font color"
+msgstr ""
+
+#: framework/admin/admin-options.php:364
+#@ sapphire-wp
+msgid "Content font color"
+msgstr ""
+
+#: framework/admin/admin-options.php:372
+#@ sapphire-wp
+msgid "Footer top color"
+msgstr ""
+
+#: framework/admin/admin-options.php:380
+#@ sapphire-wp
+msgid "Footer top font color"
+msgstr ""
+
+#: framework/admin/admin-options.php:388
+#@ sapphire-wp
+msgid "Footer middle color"
+msgstr ""
+
+#: framework/admin/admin-options.php:396
+#@ sapphire-wp
+msgid "Footer middle font color"
+msgstr ""
+
+#: framework/admin/admin-options.php:404
+#@ sapphire-wp
+msgid "Footer bottom color"
+msgstr ""
+
+#: framework/admin/admin-options.php:412
+#@ sapphire-wp
+msgid "Footer bottom font color"
+msgstr ""
+
+#: framework/admin/admin-options.php:429
+#@ sapphire-wp
+msgid "Facebook"
+msgstr ""
+
+#: framework/admin/admin-options.php:430
+#@ sapphire-wp
+msgid "Specify the link to your Facebook account."
+msgstr ""
+
+#: framework/admin/admin-options.php:436
+#@ sapphire-wp
+msgid "Twitter"
+msgstr ""
+
+#: framework/admin/admin-options.php:437
+#@ sapphire-wp
+msgid "Specify the link to your Twitter account."
+msgstr ""
+
+#: framework/admin/admin-options.php:443
+#@ sapphire-wp
+msgid "Google Plus"
+msgstr ""
+
+#: framework/admin/admin-options.php:444
+#@ sapphire-wp
+msgid "Specify the link to your Goolge Plus account."
+msgstr ""
+
+#: framework/admin/admin-options.php:450
+#@ sapphire-wp
+msgid "Pinterest"
+msgstr ""
+
+#: framework/admin/admin-options.php:451
+#@ sapphire-wp
+msgid "Specify the link to your Pinterest account."
+msgstr ""
+
+#: framework/admin/admin-options.php:457
+#@ sapphire-wp
+msgid "Instagram"
+msgstr ""
+
+#: framework/admin/admin-options.php:458
+#@ sapphire-wp
+msgid "Specify the link to your Instagram account."
+msgstr ""
+
+#: framework/admin/admin-options.php:464
+#@ sapphire-wp
+msgid "Tumblr"
+msgstr ""
+
+#: framework/admin/admin-options.php:465
+#@ sapphire-wp
+msgid "Specify the link to your Tumblr account."
+msgstr ""
+
+#: framework/admin/admin-options.php:471
+#@ sapphire-wp
+msgid "YouTube"
+msgstr ""
+
+#: framework/admin/admin-options.php:472
+#@ sapphire-wp
+msgid "Specify the link to your YouTube account."
+msgstr ""
+
+#: framework/admin/admin-options.php:478
+#@ sapphire-wp
+msgid "Flickr"
+msgstr ""
+
+#: framework/admin/admin-options.php:479
+#@ sapphire-wp
+msgid "Specify the link to your Flickr account."
+msgstr ""
+
+#: framework/admin/admin-options.php:485
+#@ sapphire-wp
+msgid "LinkedIn"
+msgstr ""
+
+#: framework/admin/admin-options.php:486
+#@ sapphire-wp
+msgid "Specify the link to your LinkedIn account."
+msgstr ""
+
+#: framework/admin/admin-options.php:663
+#: framework/modules/ewf-header/ewf-modHeader.php:618
+#@ sapphire-wp
+msgid "Background color"
+msgstr ""
+
+#: framework/admin/admin-options.php:672
+#@ sapphire-wp
+msgid "Background image"
+msgstr ""
+
+#: framework/admin/admin-options.php:694
+#@ sapphire-wp
+msgid "Upload image"
+msgstr ""
+
+#: framework/admin/admin-options.php:695
+#@ sapphire-wp
+msgid "Remove image"
+msgstr ""
+
+#: framework/admin/admin-options.php:696
+#@ sapphire-wp
+msgid "Choose pattern"
+msgstr ""
+
+#: framework/admin/admin-options.php:697
+#: framework/modules/ewf-layout/ewf-modLayout.php:465
+#: framework/modules/ewf-layout/ewf-modLayout.php:480
+#: framework/modules/ewf-layout/ewf-modLayout.php:494
+#@ sapphire-wp
+msgid "Cancel"
+msgstr ""
+
+#: framework/admin/admin-options.php:713
+#@ sapphire-wp
+msgid "Background repeat"
+msgstr ""
+
+#: framework/admin/admin-options.php:720
+#@ sapphire-wp
+msgid "Repeat Horizontal"
+msgstr ""
+
+#: framework/admin/admin-options.php:721
+#@ sapphire-wp
+msgid "Repeat Vertical"
+msgstr ""
+
+#: framework/admin/admin-options.php:722
+#@ sapphire-wp
+msgid "No Repeat"
+msgstr ""
+
+#: framework/admin/admin-options.php:735
+#@ sapphire-wp
+msgid "Background position"
+msgstr ""
+
+#: framework/admin/admin-options.php:741
+#@ sapphire-wp
+msgid "Align Right Top"
+msgstr ""
+
+#: framework/admin/admin-options.php:742
+#@ sapphire-wp
+msgid "Align Center Top"
+msgstr ""
+
+#: framework/admin/admin-options.php:743
+#@ sapphire-wp
+msgid "Align Left Top"
+msgstr ""
+
+#: framework/admin/admin-options.php:744
+#@ sapphire-wp
+msgid "Align Right Center"
+msgstr ""
+
+#: framework/admin/admin-options.php:745
+#@ sapphire-wp
+msgid "Align Center Center"
+msgstr ""
+
+#: framework/admin/admin-options.php:746
+#@ sapphire-wp
+msgid "Align Left Center"
+msgstr ""
+
+#: framework/admin/admin-options.php:747
+#@ sapphire-wp
+msgid "Align Right Bottom"
+msgstr ""
+
+#: framework/admin/admin-options.php:748
+#@ sapphire-wp
+msgid "Align Center Bottom"
+msgstr ""
+
+#: framework/admin/admin-options.php:749
+#@ sapphire-wp
+msgid "Align Left Bottom"
+msgstr ""
+
+#: framework/admin/admin-options.php:762
+#@ sapphire-wp
+msgid "Background attachment"
+msgstr ""
+
+#: framework/admin/admin-options.php:769
+#@ sapphire-wp
+msgid "Background Fixed"
+msgstr ""
+
+#: framework/admin/admin-options.php:770
+#@ sapphire-wp
+msgid "Background Scroll"
+msgstr ""
+
+#: framework/admin/admin-options.php:784
+#@ sapphire-wp
+msgid "Background stretch & fit"
+msgstr ""
+
+#: framework/admin/admin-options.php:829
+#@ sapphire-wp
+msgid "Change Image"
+msgstr ""
+
+#: framework/admin/admin-options.php:864
+#@ sapphire-wp
+msgid "Columns"
+msgstr ""
+
+#: framework/admin/admin-options.php:865
+#@ sapphire-wp
+msgid "Edit Size"
+msgstr ""
+
+#: framework/admin/admin-options.php:886
+#@ sapphire-wp
+msgid "Press the plus button to increase column size"
+msgstr ""
+
+#: framework/admin/admin-options.php:1029
+#@ sapphire-wp
+msgid "Title Sample"
+msgstr ""
+
+#: framework/admin/admin-options.php:1030
+#@ sapphire-wp
+msgid "paragraph sample here"
+msgstr ""
+
+#: framework/admin/admin-options.php:1276
+#@ sapphire-wp
+msgid "Theme Options"
+msgstr ""
+
+#: framework/admin/admin-options.php:1330
+#: framework/modules/ewf-layout/ewf-modLayout.php:496
+#@ sapphire-wp
+msgid "Save changes"
+msgstr ""
+
+#: framework/admin/admin-options.php:1333
+#@ sapphire-wp
+msgid "Restore Defaults"
+msgstr ""
+
+#: framework/admin/admin-options.php:1342
+#@ sapphire-wp
+msgid "The settings have been successfully saved!"
+msgstr ""
+
+#: framework/admin/admin-options.php:1346
+#@ sapphire-wp
+msgid "Default settings have been restored!"
+msgstr ""
+
+#: framework/admin/admin-options.php:1350
+#@ sapphire-wp
+msgid "The theme settings have been restored to default, install triggered!"
+msgstr ""
+
+#: framework/admin/admin-options.php:1365
+#@ sapphire-wp
+msgid "General"
+msgstr ""
+
+#: framework/admin/admin-options.php:1366
+#: framework/composer/components/__vc_ewf_our_process.php:38
+#: framework/composer/components/__vc_ewf_service.php:40
+#: framework/composer/components/__vc_ewf_service_overview.php:40
+#: framework/composer/components/vc_ewf_button.php:69
+#: framework/composer/components/vc_ewf_divider.php:28
+#: framework/composer/components/vc_ewf_headline.php:33
+#: framework/composer/components/vc_ewf_iconbox.php:125
+#: framework/composer/components/vc_ewf_logo.php:46
+#: framework/composer/components/vc_ewf_map.php:27
+#: framework/composer/components/vc_ewf_message_box.php:49
+#: framework/composer/components/vc_ewf_milestone.php:34
+#: framework/composer/components/vc_ewf_piechart.php:39
+#: framework/composer/components/vc_ewf_progress.php:38
+#: framework/composer/components/vc_ewf_team_member.php:116
+#: framework/composer/components/vc_ewf_testimonial.php:52
+#: framework/composer/components/vc_ewf_testimonial_adv.php:52
+#@ sapphire-wp
+msgid "Typography"
+msgstr ""
+
+#: framework/admin/admin-options.php:1367
+#@ sapphire-wp
+msgid "Colors"
+msgstr ""
+
+#: framework/admin/admin-options.php:1368
+#: framework/modules/ewf-header/ewf-modHeader.php:443
+#@ sapphire-wp
+msgid "Header"
+msgstr ""
+
+#: framework/admin/admin-options.php:1369
+#@ sapphire-wp
+msgid "Footer"
+msgstr ""
+
+#: framework/admin/admin-options.php:1446
+#@ sapphire-wp
+msgid "Select page"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_blog_posts.php:17
+#: framework/composer/components/__vc_ewf_blog_posts.php:174
+#: framework/composer/components/__vc_ewf_service_overview.php:9
+#: framework/composer/components/__vc_ewf_service_overview.php:77
+#: templates/blog-columns-full.php:86
+#: templates/blog-item-default.php:89
+#: templates/blog-item-timeline.php:86
+#@ sapphire-wp
+msgid "read more"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_blog_posts.php:18
+#@ sapphire-wp
+msgid "Read our latest posts"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_blog_posts.php:83
+#: templates/__template-blog-item.php:71
+#: templates/__template-blog-item.php:95
+#@ sapphire-wp
+msgid "by"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_blog_posts.php:143
+#@ sapphire-wp
+msgid "Blog Posts"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_blog_posts.php:147
+#@ sapphire-wp
+msgid "Show 2 blog posts from a specified category"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_blog_posts.php:148
+#: framework/composer/components/__vc_ewf_page_slider.php:151
+#: framework/composer/components/__vc_ewf_service_overview.php:66
+#: framework/composer/components/__vc_ewf_slider_case_studies.php:158
+#: framework/composer/components/vc_ewf_iconbox.php:165
+#: framework/composer/components/vc_ewf_pricing.php:51
+#@ sapphire-wp
+msgid "Content"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_blog_posts.php:172
+#@ sapphire-wp
+msgid "Read more title"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_blog_posts.php:175
+#@ sapphire-wp
+msgid "Read more title from blog article"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_blog_posts.php:181
+#@ sapphire-wp
+msgid "Button title"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_blog_posts.php:183
+#@ sapphire-wp
+msgid "read our latest posts"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_blog_posts.php:184
+#: framework/composer/components/__vc_ewf_blog_posts.php:193
+#@ sapphire-wp
+msgid "Read more title from the button"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_blog_posts.php:190
+#@ sapphire-wp
+msgid "Button link"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_our_process.php:7
+#: framework/composer/components/vc_ewf_button.php:7
+#: framework/composer/components/vc_ewf_headline.php:7
+#: framework/composer/components/vc_ewf_headline.php:41
+#: framework/composer/components/vc_ewf_process_horizontal.php:13
+#: framework/composer/components/vc_ewf_process_vertical.php:13
+#: framework/widgets/widget-call-to-action.php:51
+#@ sapphire-wp
+msgid "Sample title"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_our_process.php:9
+#: framework/composer/components/__vc_ewf_our_process.php:64
+#@ sapphire-wp
+msgid "Number first"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_our_process.php:33
+#@ sapphire-wp
+msgid "Single Process"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_our_process.php:37
+#@ sapphire-wp
+msgid "Add a process title with number and details"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_our_process.php:46
+#@ sapphire-wp
+msgid "Process title"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_our_process.php:47
+#@ sapphire-wp
+msgid "Specify the title that will fit in the hexagon."
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_our_process.php:53
+#: framework/composer/components/vc_ewf_milestone.php:49
+#@ sapphire-wp
+msgid "Number"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_our_process.php:56
+#@ sapphire-wp
+msgid "Specify the number positioned in front or after the hexagon."
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_our_process.php:62
+#@ sapphire-wp
+msgid "Position"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_our_process.php:64
+#@ sapphire-wp
+msgid "Title first"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_our_process.php:65
+#@ sapphire-wp
+msgid "Specify the arrangement of number and hexagon"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_our_process.php:71
+#@ sapphire-wp
+msgid "Process description"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_our_process.php:73
+#: framework/composer/components/__vc_ewf_service_overview.php:68
+#: framework/composer/components/vc_ewf_iconbox.php:167
+#: framework/composer/components/vc_ewf_team_member.php:224
+#@ sapphire-wp
+msgid "I am test text block. Click edit button to change this text."
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_page_slider.php:146
+#@ sapphire-wp
+msgid "Slider"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_page_slider.php:150
+#@ sapphire-wp
+msgid "Full width slider from Slider post type"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_page_slider.php:160
+#: framework/composer/components/__vc_ewf_slider_case_studies.php:167
+#@ sapphire-wp
+msgid "The number of slides to load"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_page_slider.php:166
+#: framework/composer/components/__vc_ewf_slider_case_studies.php:173
+#@ sapphire-wp
+msgid "Category"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_page_slider.php:169
+#: framework/composer/components/__vc_ewf_slider_case_studies.php:176
+#@ sapphire-wp
+msgid "Specify slides from a defined category"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_page_slider.php:175
+#: framework/composer/components/__vc_ewf_slider_case_studies.php:182
+#@ sapphire-wp
+msgid "Slides order"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_page_slider.php:178
+#: framework/composer/components/__vc_ewf_slider_case_studies.php:185
+#: framework/composer/components/vc_ewf_portfolio_grid.php:248
+#: framework/composer/components/vc_ewf_portfolio_strip.php:195
+#@ sapphire-wp
+msgid "Load projects in a Ascendent(1,2,3) or Descendent (3,2,1) order"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_portfolio_isotope.php:174
+#@ sapphire-wp
+msgid "Portfolio Isotope"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_portfolio_isotope.php:178
+#@ sapphire-wp
+msgid "Add grid of portfolio items"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_portfolio_isotope.php:179
+#: framework/composer/components/vc_ewf_portfolio_featured.php:121
+#: framework/composer/components/vc_ewf_portfolio_grid.php:199
+#: framework/composer/components/vc_ewf_portfolio_strip.php:167
+#@ sapphire-wp
+msgid "Portfolio"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_portfolio_isotope.php:185
+#@ sapphire-wp
+msgid "Load items"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_portfolio_isotope.php:188
+#@ sapphire-wp
+msgid "The number of items visible initially."
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_portfolio_isotope.php:195
+#@ sapphire-wp
+msgid "Load More Items"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_portfolio_isotope.php:198
+#@ sapphire-wp
+msgid "Number of items to add when you press the 'Load More' button."
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_service.php:35
+#: framework/composer/components/vc_ewf_portfolio_grid.php:234
+#: framework/composer/components/vc_ewf_portfolio_strip.php:181
+#@ sapphire-wp
+msgid "Service"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_service.php:39
+#@ sapphire-wp
+msgid "Use an image and title to point to a service"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_service.php:46
+#: framework/composer/components/vc_ewf_logo.php:54
+#: framework/composer/components/vc_ewf_team_member.php:124
+#: framework/composer/components/vc_ewf_testimonial.php:58
+#: framework/composer/components/vc_ewf_testimonial_adv.php:56
+#@ sapphire-wp
+msgid "Image"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_service.php:57
+#@ sapphire-wp
+msgid "Title of the service"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_service.php:66
+#: framework/composer/components/__vc_ewf_service_overview.php:86
+#@ sapphire-wp
+msgid "Add the link that points to the service"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_service_overview.php:37
+#@ sapphire-wp
+msgid "Service Overview"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_service_overview.php:42
+#@ sapphire-wp
+msgid "Add a service title, with icon and description"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_service_overview.php:51
+#: framework/composer/components/vc_ewf_iconbox.php:136
+#@ sapphire-wp
+msgid "The service title"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_service_overview.php:57
+#: framework/composer/components/vc_ewf_button.php:85
+#: framework/composer/components/vc_ewf_iconbox.php:142
+#: framework/composer/components/vc_ewf_process_horizontal.php:77
+#: framework/composer/components/vc_ewf_process_vertical.php:75
+#@ sapphire-wp
+msgid "Select Icon"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_service_overview.php:60
+#: framework/composer/components/vc_ewf_iconbox.php:145
+#@ sapphire-wp
+msgid "Select the icon you want to have at the top of the section"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_service_overview.php:69
+#: framework/composer/components/vc_ewf_iconbox.php:168
+#@ sapphire-wp
+msgid "Add description text for the service"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_slider_case_studies.php:153
+#@ sapphire-wp
+msgid "Case Study Slider"
+msgstr ""
+
+#: framework/composer/components/__vc_ewf_slider_case_studies.php:157
+#@ sapphire-wp
+msgid "Create a slider from Case Studies post type"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_button.php:64
+#@ sapphire-wp
+msgid "Button"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_button.php:68
+#@ sapphire-wp
+msgid "Customizable button with text and icon"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_button.php:76
+#@ sapphire-wp
+msgid "Link title & URL"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_button.php:79
+#@ sapphire-wp
+msgid "Specify the link pointing to another page"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_button.php:88
+#@ sapphire-wp
+msgid "Select the icon you want"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_button.php:94
+#@ sapphire-wp
+msgid "Button Color"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_button.php:96
+#@ sapphire-wp
+msgid "Default"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_button.php:96
+#@ sapphire-wp
+msgid "Black"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_button.php:96
+#@ sapphire-wp
+msgid "Green"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_button.php:96
+#@ sapphire-wp
+msgid "Light Green"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_button.php:96
+#@ sapphire-wp
+msgid "Custom color"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_button.php:97
+#: framework/composer/components/vc_ewf_button.php:126
+#@ sapphire-wp
+msgid "Specify the type size of the button"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_button.php:103
+#@ sapphire-wp
+msgid "Button Background Color"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_button.php:106
+#@ sapphire-wp
+msgid "Select the color of the text on button"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_button.php:113
+#@ sapphire-wp
+msgid "Button Text Color"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_button.php:116
+#@ sapphire-wp
+msgid "Select the color of the button"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_button.php:123
+#@ sapphire-wp
+msgid "Button Size"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_button.php:125
+#@ sapphire-wp
+msgid "Small"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_button.php:125
+#@ sapphire-wp
+msgid "Large"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_divider.php:23
+#@ sapphire-wp
+msgid "Divider"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_divider.php:27
+#@ sapphire-wp
+msgid "Use it to divide content"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_divider.php:35
+#@ sapphire-wp
+msgid "Dividing Height"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_divider.php:38
+#@ sapphire-wp
+msgid "Specify the height this block should have"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_divider.php:45
+#@ sapphire-wp
+msgid "Divider Style"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_divider.php:47
+#@ sapphire-wp
+msgid "Single line"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_divider.php:47
+#@ sapphire-wp
+msgid "Double line"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_divider.php:47
+#@ sapphire-wp
+msgid "Dotted line"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_divider.php:47
+#@ sapphire-wp
+msgid "Double dotted line"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_divider.php:48
+#@ sapphire-wp
+msgid "Specify the type of the line"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_headline.php:28
+#@ sapphire-wp
+msgid "Headline"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_headline.php:42
+#@ sapphire-wp
+msgid "Specify the text of the headline"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_headline.php:48
+#@ sapphire-wp
+msgid "Title align"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_headline.php:50
+#: framework/composer/components/vc_ewf_iconbox.php:185
+#@ sapphire-wp
+msgid "Left"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_headline.php:50
+#: framework/composer/components/vc_ewf_iconbox.php:185
+#@ sapphire-wp
+msgid "Center"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_headline.php:51
+#@ sapphire-wp
+msgid "Specify the way the title should be aligned inside the headline"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_iconbox.php:122
+#@ sapphire-wp
+msgid "Icon Box"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_iconbox.php:127
+#@ sapphire-wp
+msgid "Add an icon box, with icon and description"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_iconbox.php:151
+#@ sapphire-wp
+msgid "Style"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_iconbox.php:154
+#@ sapphire-wp
+msgid "Style 1"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_iconbox.php:155
+#@ sapphire-wp
+msgid "Style 2"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_iconbox.php:156
+#@ sapphire-wp
+msgid "Style 3"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_iconbox.php:157
+#@ sapphire-wp
+msgid "Style 4"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_iconbox.php:159
+#@ sapphire-wp
+msgid "There are 4 styles, the diferences consists on iconsize and placement inside of iconbox"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_iconbox.php:174
+#@ sapphire-wp
+msgid "Read more link"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_iconbox.php:177
+#@ sapphire-wp
+msgid "Specify an optional link to another page"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_iconbox.php:183
+#@ sapphire-wp
+msgid "Read more link placement"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_iconbox.php:185
+#@ sapphire-wp
+msgid "Right"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_iconbox.php:186
+#@ sapphire-wp
+msgid "How the read more link should be aligned inside of iconbox"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_logo.php:43
+#@ sapphire-wp
+msgid "Client logo"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_logo.php:56
+#@ sapphire-wp
+msgid "Add the logo image"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_logo.php:62
+#@ sapphire-wp
+msgid "Link"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_logo.php:65
+#@ sapphire-wp
+msgid "Specify an optional link pointing to an URL"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_map.php:8
+#: framework/composer/components/vc_ewf_map.php:22
+#@ sapphire-wp
+msgid "Google Map"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_map.php:25
+#@ sapphire-wp
+msgid "Add Google Map section"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_map.php:33
+#@ sapphire-wp
+msgid "Address"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_map.php:36
+#@ sapphire-wp
+msgid "The address where the map is centered"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_map.php:42
+#@ sapphire-wp
+msgid "Pinpoint caption"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_map.php:44
+#@ sapphire-wp
+msgid "Sample caption here"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_map.php:45
+#@ sapphire-wp
+msgid "Specify text that will appear when you click on the pin"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_map.php:51
+#: framework/functions-type-project.php:262
+#@ sapphire-wp
+msgid "Zoom"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_map.php:54
+#@ sapphire-wp
+msgid "Specify a zoom value between 5 and 20"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_message_box.php:7
+#@ sapphire-wp
+msgid "Info"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_message_box.php:12
+#@ sapphire-wp
+msgid "Success"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_message_box.php:17
+#@ sapphire-wp
+msgid "Warning"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_message_box.php:22
+#@ sapphire-wp
+msgid "Error"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_message_box.php:44
+#@ sapphire-wp
+msgid "Message box"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_message_box.php:48
+#@ sapphire-wp
+msgid "Use to display notices, warnings, alerts"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_message_box.php:55
+#@ sapphire-wp
+msgid "Message type"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_message_box.php:58
+#@ sapphire-wp
+msgid "Specify"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_message_box.php:67
+#@ sapphire-wp
+msgid "Specify the content of the message"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_milestone.php:29
+#@ sapphire-wp
+msgid "Milestone"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_milestone.php:33
+#@ sapphire-wp
+msgid "Animated count from 0 to specified number"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_milestone.php:43
+#@ sapphire-wp
+msgid "The milestone title"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_milestone.php:52
+#@ sapphire-wp
+msgid "The final value will animate to, from 0 to the number provided by you"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_milestone.php:58
+#@ sapphire-wp
+msgid "Speed"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_milestone.php:61
+#@ sapphire-wp
+msgid "Specify the animation speed"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_piechart.php:8
+#: framework/composer/components/vc_ewf_progress.php:8
+#@ sapphire-wp
+msgid "Sample progress bar"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_piechart.php:34
+#@ sapphire-wp
+msgid "Pie Chart"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_piechart.php:48
+#@ sapphire-wp
+msgid "A description of what the chart represents"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_piechart.php:54
+#: framework/composer/components/vc_ewf_progress.php:53
+#@ sapphire-wp
+msgid "Value"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_piechart.php:57
+#: framework/composer/components/vc_ewf_progress.php:56
+#@ sapphire-wp
+msgid "Specify a value between 1 and 100, it represents the loaded percentage"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_piechart.php:63
+#@ sapphire-wp
+msgid "Width"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_piechart.php:66
+#@ sapphire-wp
+msgid "Represents the width of the piechart measured in pixels"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_piechart.php:72
+#@ sapphire-wp
+msgid "Line width"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_piechart.php:75
+#@ sapphire-wp
+msgid "Represents the thickness of the piechart"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_piechart.php:81
+#@ sapphire-wp
+msgid "Piechart Color"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_piechart.php:84
+#: framework/composer/components/vc_ewf_progress.php:65
+#@ sapphire-wp
+msgid "Select the color of the bar"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_piechart.php:90
+#@ sapphire-wp
+msgid "Track Color"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_piechart.php:93
+#@ sapphire-wp
+msgid "Select the color of the track"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_portfolio_featured.php:116
+#@ sapphire-wp
+msgid "Portfolio Item Featured"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_portfolio_featured.php:120
+#@ sapphire-wp
+msgid "Add a full width row with portfolio items"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_portfolio_featured.php:136
+#@ sapphire-wp
+msgid "Choose a portfolio item from the list below"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_portfolio_grid.php:194
+#@ sapphire-wp
+msgid "Portfolio Grid"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_portfolio_grid.php:198
+#: framework/composer/components/vc_ewf_portfolio_strip.php:166
+#@ sapphire-wp
+msgid "Add a full width row with porftolio items"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_portfolio_grid.php:205
+#@ sapphire-wp
+msgid "Number of portfolio items"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_portfolio_grid.php:208
+#@ sapphire-wp
+msgid "Select the number of items you want to load"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_portfolio_grid.php:214
+#@ sapphire-wp
+msgid "Prortfolio grid layout"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_portfolio_grid.php:217
+#@ sapphire-wp
+msgid "3 Columns"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_portfolio_grid.php:218
+#@ sapphire-wp
+msgid "4 Columns"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_portfolio_grid.php:226
+#@ sapphire-wp
+msgid "How should the portfolio items to load, be chosen"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_portfolio_grid.php:228
+#@ sapphire-wp
+msgid "Random"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_portfolio_grid.php:228
+#@ sapphire-wp
+msgid "From a service"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_portfolio_grid.php:228
+#@ sapphire-wp
+msgid "Latest projects"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_portfolio_grid.php:237
+#: framework/composer/components/vc_ewf_portfolio_strip.php:184
+#@ sapphire-wp
+msgid "Specify projects from a defined category"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_portfolio_grid.php:244
+#: framework/composer/components/vc_ewf_portfolio_strip.php:191
+#@ sapphire-wp
+msgid "Projects order"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_portfolio_strip.php:162
+#@ sapphire-wp
+msgid "Portfolio Strip"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_portfolio_strip.php:173
+#@ sapphire-wp
+msgid "Load 5 portfolio items"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_pricing.php:9
+#: framework/composer/components/vc_ewf_pricing.php:59
+#@ sapphire-wp
+msgid "Starter edition"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_pricing.php:12
+#: framework/composer/components/vc_ewf_pricing.php:77
+#@ sapphire-wp
+msgid "per year"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_pricing.php:46
+#@ sapphire-wp
+msgid "Pricing Table"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_pricing.php:57
+#@ sapphire-wp
+msgid "Plan name"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_pricing.php:66
+#@ sapphire-wp
+msgid "Cost"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_pricing.php:75
+#@ sapphire-wp
+msgid "Period"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_pricing.php:84
+#@ sapphire-wp
+msgid "Plan features (add one per line)"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_pricing.php:93
+#@ sapphire-wp
+msgid "Read more button"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_pricing.php:96
+#@ sapphire-wp
+msgid "Specify an optional link pointing to a details page"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_process_horizontal.php:45
+#@ sapphire-wp
+msgid "Process Horizontal"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_process_horizontal.php:50
+#@ sapphire-wp
+msgid "Create a horizontal list with items"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_process_horizontal.php:56
+#: framework/composer/components/vc_ewf_process_vertical.php:52
+#: framework/composer/components/vc_ewf_slider_testimonials.php:27
+#@ sapphire-wp
+msgid "Extra class name"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_process_horizontal.php:58
+#: framework/composer/components/vc_ewf_process_vertical.php:54
+#: framework/composer/components/vc_ewf_slider_testimonials.php:29
+#@ js_composer
+msgid "If you wish to style particular content element differently, then use this field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: framework/composer/components/vc_ewf_process_horizontal.php:65
+#: framework/composer/components/vc_ewf_process_vertical.php:63
+#@ sapphire-wp
+msgid "Process Item"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_process_horizontal.php:80
+#: framework/composer/components/vc_ewf_process_vertical.php:78
+#@ sapphire-wp
+msgid "Select the icon you want to have on the left side of the section"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_process_horizontal.php:89
+#: framework/composer/components/vc_ewf_process_vertical.php:87
+#: framework/composer/components/vc_ewf_progress.php:47
+#@ sapphire-wp
+msgid "The title of the progress bar"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_process_horizontal.php:95
+#@ sapphire-wp
+msgid "Color"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_process_horizontal.php:98
+#@ sapphire-wp
+msgid "The color of the title"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_process_vertical.php:41
+#@ sapphire-wp
+msgid "Process Vertical"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_process_vertical.php:46
+#@ sapphire-wp
+msgid "Create a vertical list with items"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_process_vertical.php:93
+#@ sapphire-wp
+msgid "Details"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_process_vertical.php:96
+#@ sapphire-wp
+msgid "The content of progress"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_progress.php:33
+#@ sapphire-wp
+msgid "Progress Bar"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_progress.php:62
+#@ sapphire-wp
+msgid "Bar Color"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_slider_testimonials.php:16
+#@ sapphire-wp
+msgid "Slider Testimonials"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_slider_testimonials.php:21
+#@ sapphire-wp
+msgid "Create a slider with testimonials"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_slider_testimonials.php:35
+#@ sapphire-wp
+msgid "Background Color"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_slider_testimonials.php:38
+#@ sapphire-wp
+msgid "Background color of the slider"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_team_member.php:9
+#@ sapphire-wp
+msgid "Sample job title"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_team_member.php:113
+#@ sapphire-wp
+msgid "Team Member"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_team_member.php:118
+#@ sapphire-wp
+msgid "Name, image and description"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_team_member.php:126
+#@ sapphire-wp
+msgid "Add the image of the team member"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_team_member.php:132
+#: framework/composer/components/vc_ewf_testimonial.php:66
+#: framework/composer/components/vc_ewf_testimonial_adv.php:64
+#@ sapphire-wp
+msgid "Name"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_team_member.php:134
+#: framework/composer/components/vc_ewf_testimonial.php:10
+#: framework/composer/components/vc_ewf_testimonial.php:68
+#: framework/composer/components/vc_ewf_testimonial_adv.php:10
+#: framework/composer/components/vc_ewf_testimonial_adv.php:66
+#@ sapphire-wp
+msgid "Sample Name"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_team_member.php:135
+#@ sapphire-wp
+msgid "Specify the name of the member"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_team_member.php:141
+#: framework/composer/components/vc_ewf_team_member.php:143
+#@ sapphire-wp
+msgid "Job Title"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_team_member.php:153
+#@ sapphire-wp
+msgid "Add an optional link to Google Plus profile page, leave blank if not available"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_team_member.php:162
+#@ sapphire-wp
+msgid "Add an optional link to Facebook profile page, leave blank if not available"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_team_member.php:171
+#@ sapphire-wp
+msgid "Add an optional link to Twitter profile page, leave blank if not available"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_team_member.php:180
+#@ sapphire-wp
+msgid "Add an optional link to Pinterest profile page, leave blank if not available"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_team_member.php:189
+#@ sapphire-wp
+msgid "Add an optional link to YouTube profile page, leave blank if not available"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_team_member.php:198
+#@ sapphire-wp
+msgid "Add an optional link to Dribbble profile page, leave blank if not available"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_team_member.php:207
+#@ sapphire-wp
+msgid "Add an optional link to Tumblr profile page, leave blank if not available"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_team_member.php:216
+#@ sapphire-wp
+msgid "Add an optional link to Instagram profile page, leave blank if not available"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_team_member.php:222
+#@ sapphire-wp
+msgid "Member details"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_team_member.php:225
+#@ sapphire-wp
+msgid "Add details about the member"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_testimonial.php:11
+#: framework/composer/components/vc_ewf_testimonial_adv.php:11
+#@ sapphire-wp
+msgid "Client"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_testimonial.php:47
+#: framework/composer/components/vc_ewf_testimonial.php:84
+#: framework/composer/components/vc_ewf_testimonial_adv.php:82
+#@ sapphire-wp
+msgid "Testimonial"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_testimonial.php:51
+#@ sapphire-wp
+msgid "Add a quote, image and description"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_testimonial.php:60
+#@ sapphire-wp
+msgid "Add an image to the right side of the testimonial"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_testimonial.php:69
+#: framework/composer/components/vc_ewf_testimonial_adv.php:67
+#@ sapphire-wp
+msgid "Specify the the name of the testimonial author"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_testimonial.php:78
+#: framework/composer/components/vc_ewf_testimonial_adv.php:76
+#@ sapphire-wp
+msgid "Specify a description of the author"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_testimonial.php:87
+#: framework/composer/components/vc_ewf_testimonial_adv.php:85
+#@ sapphire-wp
+msgid "Specify the text of the testimonial"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_testimonial_adv.php:47
+#@ sapphire-wp
+msgid "Testimonial Alternative"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_testimonial_adv.php:51
+#@ sapphire-wp
+msgid "Add a testimonial title, image and description"
+msgstr ""
+
+#: framework/composer/components/vc_ewf_testimonial_adv.php:58
+#@ sapphire-wp
+msgid "Add an image at the bottom of the testimonial"
+msgstr ""
+
+#: framework/composer/extender-vc_row.php:9
+#@ sapphire-wp
+msgid "Spread full width"
+msgstr ""
+
+#: framework/composer/extender-vc_row.php:12
+#@ sapphire-wp
+msgid "Expand section full width (used for sliders in general)"
+msgstr ""
+
+#: framework/composer/extender-vc_row.php:20
+#@ sapphire-wp
+msgid "Add parallax efect to this section"
+msgstr ""
+
+#: framework/composer/extender-vc_row.php:23
+#@ sapphire-wp
+msgid "Add parallax effect using the image added to the post"
+msgstr ""
+
+#: framework/functions-blog.php:266
+#@ sapphire-wp
+msgid "Older Posts"
+msgstr ""
+
+#: framework/functions-blog.php:267
+#@ sapphire-wp
+msgid "Newer Posts"
+msgstr ""
+
+#: framework/functions-blog.php:322
+#@ sapphire-wp
+msgid "blog archive"
+msgstr ""
+
+#: framework/functions-blog.php:491
+#@ sapphire-wp
+msgid "&#8212; Read More"
+msgstr ""
+
+#: framework/functions-blog.php:771
+#@ sapphire-wp
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: framework/functions-blog.php:785
+#@ sapphire-wp
+msgid "Pingback:"
+msgstr ""
+
+#: framework/functions-menus.php:18
+#@ sapphire-wp
+msgid "Top Menu"
+msgstr ""
+
+#: framework/functions-menus.php:40
+#@ sapphire-wp
+msgid "Menu not selected - Please review documentation!"
+msgstr ""
+
+#: framework/functions-meta-contact.php:15
+#@ sapphire-wp
+msgid "Contact details"
+msgstr ""
+
+#: framework/functions-meta-contact.php:47
+#: framework/widgets/__widget-contact-info.php:76
+#@ sapphire-wp
+msgid "Address:"
+msgstr ""
+
+#: framework/functions-meta-contact.php:51
+#@ sapphire-wp
+msgid "Zoom:"
+msgstr ""
+
+#: framework/functions-meta-contact.php:54
+#@ sapphire-wp
+msgid "Caption:"
+msgstr ""
+
+#: framework/functions-sidebars.php:10
+#: header.php:32
+#@ sapphire-wp
+msgid "Header widget area left"
+msgstr ""
+
+#: framework/functions-sidebars.php:10
+#@ sapphire-wp
+msgid "In the header left column"
+msgstr ""
+
+#: framework/functions-sidebars.php:11
+#: header.php:44
+#@ sapphire-wp
+msgid "Header widget area right"
+msgstr ""
+
+#: framework/functions-sidebars.php:11
+#@ sapphire-wp
+msgid "In the header right column"
+msgstr ""
+
+#: framework/functions-sidebars.php:13
+#@ sapphire-wp
+msgid "Footer top widget area"
+msgstr ""
+
+#: framework/functions-sidebars.php:13
+#@ sapphire-wp
+msgid "The section located above footer"
+msgstr ""
+
+#: framework/functions-sidebars.php:15
+#@ sapphire-wp
+msgid "Footer widget area 1"
+msgstr ""
+
+#: framework/functions-sidebars.php:15
+#@ sapphire-wp
+msgid "In the footer the left column"
+msgstr ""
+
+#: framework/functions-sidebars.php:16
+#@ sapphire-wp
+msgid "Footer widget area 2"
+msgstr ""
+
+#: framework/functions-sidebars.php:16
+#@ sapphire-wp
+msgid "In the footer the left center column"
+msgstr ""
+
+#: framework/functions-sidebars.php:17
+#@ sapphire-wp
+msgid "Footer widget area 3"
+msgstr ""
+
+#: framework/functions-sidebars.php:17
+#@ sapphire-wp
+msgid "In the footer the right center column"
+msgstr ""
+
+#: framework/functions-sidebars.php:18
+#@ sapphire-wp
+msgid "Footer widget area 4"
+msgstr ""
+
+#: framework/functions-sidebars.php:18
+#@ sapphire-wp
+msgid "In the footer the right column"
+msgstr ""
+
+#: framework/functions-sidebars.php:21
+#@ sapphire-wp
+msgid "The section located below footer on the left"
+msgstr ""
+
+#: framework/functions-sidebars.php:22
+#@ sapphire-wp
+msgid "The section located below footer on the right"
+msgstr ""
+
+#: framework/functions-type-project.php:137
+#@ sapphire-wp
+msgid "Please add a featured image and/or other images in the page gallery to show the slider!"
+msgstr ""
+
+#: framework/functions-type-project.php:255
+#@ sapphire-wp
+msgid "Project Details"
+msgstr ""
+
+#: framework/functions-type-project.php:256
+#@ sapphire-wp
+msgid "Click on project details for more info"
+msgstr ""
+
+#: framework/functions-type-project.php:257
+#@ sapphire-wp
+msgid "Go to project page"
+msgstr ""
+
+#: framework/functions-type-project.php:258
+#@ sapphire-wp
+msgid "View larger version"
+msgstr ""
+
+#: framework/functions-type-project.php:259
+#: framework/widgets/widget-portfolio-filters.php:45
+#: framework/widgets/widget-portfolio-filters.php:90
+#@ sapphire-wp
+msgid "All Work"
+msgstr ""
+
+#: framework/functions-type-project.php:260
+#@ sapphire-wp
+msgid "View large"
+msgstr ""
+
+#: framework/functions-type-project.php:261
+#@ sapphire-wp
+msgid "&#8212; View project"
+msgstr ""
+
+#: framework/functions-type-project.php:263
+#@ sapphire-wp
+msgid "Read More"
+msgstr ""
+
+#: framework/functions-type-project.php:569
+#@ sapphire-wp
+msgid "&laquo; Previous"
+msgstr ""
+
+#: framework/functions-type-project.php:573
+#@ sapphire-wp
+msgid "Next &raquo;"
+msgstr ""
+
+#: framework/functions-type-project.php:663
+#: framework/functions-type-project.php:665
+#: framework/functions-type-project.php:689
+#@ sapphire-wp
+msgid "&#8249; Previous"
+msgstr ""
+
+#: framework/functions-type-project.php:671
+#: framework/functions-type-project.php:673
+#: framework/functions-type-project.php:690
+#@ sapphire-wp
+msgid "Next &#8250;"
+msgstr ""
+
+#: framework/functions-type-project.php:774
+#@ sapphire-wp
+msgid "Projects"
+msgstr ""
+
+#: framework/functions-type-project.php:775
+#@ sapphire-wp
+msgid "Project"
+msgstr ""
+
+#: framework/functions-type-project.php:777
+#@ sapphire-wp
+msgid "Add New Project"
+msgstr ""
+
+#: framework/functions-type-project.php:779
+#@ sapphire-wp
+msgid "Edit Project"
+msgstr ""
+
+#: framework/functions-type-project.php:780
+#@ sapphire-wp
+msgid "New Project"
+msgstr ""
+
+#: framework/functions-type-project.php:781
+#: framework/functions-type-project.php:782
+#@ sapphire-wp
+msgid "View Project"
+msgstr ""
+
+#: framework/functions-type-project.php:783
+#@ sapphire-wp
+msgid "Search Projects"
+msgstr ""
+
+#: framework/functions-type-project.php:784
+#@ sapphire-wp
+msgid "No projects found"
+msgstr ""
+
+#: framework/functions-type-project.php:785
+#@ sapphire-wp
+msgid "No projects found in Trash"
+msgstr ""
+
+#: framework/functions-type-project.php:786
+#@ sapphire-wp
+msgid "Parent project"
+msgstr ""
+
+#: framework/functions-type-project.php:803
+#@ sapphire-wp
+msgid "Services"
+msgstr ""
+
+#: framework/modules/ewf-header/ewf-modHeader.php:287
+#: framework/modules/ewf-header/ewf-modHeader.php:290
+#@ sapphire-wp
+msgid "Page header"
+msgstr ""
+
+#: framework/modules/ewf-header/ewf-modHeader.php:436
+#@ sapphire-wp
+msgid "Use page header"
+msgstr ""
+
+#: framework/modules/ewf-header/ewf-modHeader.php:445
+#@ sapphire-wp
+msgid "Templates"
+msgstr ""
+
+#: framework/modules/ewf-header/ewf-modHeader.php:463
+#@ sapphire-wp
+msgid "Keep in mind that these settings are global"
+msgstr ""
+
+#: framework/modules/ewf-header/ewf-modHeader.php:501
+#@ sapphire-wp
+msgid "Get header settings from other page"
+msgstr ""
+
+#: framework/modules/ewf-header/ewf-modHeader.php:574
+#@ sapphire-wp
+msgid "Upload Image"
+msgstr ""
+
+#: framework/modules/ewf-header/ewf-modHeader.php:575
+#@ sapphire-wp
+msgid "Remove Image"
+msgstr ""
+
+#: framework/modules/ewf-header/ewf-modHeader.php:635
+#@ sapphire-wp
+msgid "Add a parallax effect to header"
+msgstr ""
+
+#: framework/modules/ewf-header/ewf-modHeader.php:651
+#@ sapphire-wp
+msgid "Use header from another page"
+msgstr ""
+
+#: framework/modules/ewf-header/ewf-modHeader.php:695
+#@ sapphire-wp
+msgid "Header Title"
+msgstr ""
+
+#: framework/modules/ewf-header/ewf-modHeader.php:695
+#@ sapphire-wp
+msgid "Page Title"
+msgstr ""
+
+#: framework/modules/ewf-header/ewf-modHeader.php:695
+#: framework/modules/ewf-header/ewf-modHeader.php:859
+#@ sapphire-wp
+msgid "Page excerpt"
+msgstr ""
+
+#: framework/modules/ewf-header/ewf-modHeader.php:774
+#: framework/modules/ewf-header/ewf-modHeader.php:857
+#@ sapphire-wp
+msgid "Custom text"
+msgstr ""
+
+#: framework/modules/ewf-header/ewf-modHeader.php:858
+#@ sapphire-wp
+msgid "Page title"
+msgstr ""
+
+#: framework/modules/ewf-header/ewf-modHeader.php:930
+#@ sapphire-wp
+msgid "Get the header image and title from another page"
+msgstr ""
+
+#: framework/modules/ewf-header/ewf-modHeader.php:1175
+#@ sapphire-wp
+msgid "The page has no header title"
+msgstr ""
+
+#: framework/modules/ewf-header/ewf-modHeader.php:1179
+#@ sapphire-wp
+msgid "The page has no title"
+msgstr ""
+
+#: framework/modules/ewf-header/ewf-modHeader.php:1183
+#@ sapphire-wp
+msgid "The page has no excerpt"
+msgstr ""
+
+#: framework/modules/ewf-layout/ewf-modLayout.php:14
+#@ sapphire-wp
+msgid "Page Sidebar"
+msgstr ""
+
+#: framework/modules/ewf-layout/ewf-modLayout.php:20
+#@ sapphire-wp
+msgid "Blog Sidebar"
+msgstr ""
+
+#: framework/modules/ewf-layout/ewf-modLayout.php:21
+#@ sapphire-wp
+msgid "Services Sidebar"
+msgstr ""
+
+#: framework/modules/ewf-layout/ewf-modLayout.php:22
+#@ sapphire-wp
+msgid "About Sidebar"
+msgstr ""
+
+#: framework/modules/ewf-layout/ewf-modLayout.php:23
+#@ sapphire-wp
+msgid "Portfolio Sidebar"
+msgstr ""
+
+#: framework/modules/ewf-layout/ewf-modLayout.php:24
+#@ sapphire-wp
+msgid "Contact Sidebar"
+msgstr ""
+
+#: framework/modules/ewf-layout/ewf-modLayout.php:261
+#@ sapphire-wp
+msgid "Page layout & sidebars"
+msgstr ""
+
+#: framework/modules/ewf-layout/ewf-modLayout.php:274
+#@ sapphire-wp
+msgid "Sidebar Left"
+msgstr ""
+
+#: framework/modules/ewf-layout/ewf-modLayout.php:279
+#@ sapphire-wp
+msgid "No Sidebar"
+msgstr ""
+
+#: framework/modules/ewf-layout/ewf-modLayout.php:284
+#@ sapphire-wp
+msgid "Sidebar Right"
+msgstr ""
+
+#: framework/modules/ewf-layout/ewf-modLayout.php:307
+#@ sapphire-wp
+msgid "Sidebars"
+msgstr ""
+
+#: framework/modules/ewf-layout/ewf-modLayout.php:317
+#@ sapphire-wp
+msgid "Choose the position the sidebar should have on the page"
+msgstr ""
+
+#: framework/modules/ewf-layout/ewf-modLayout.php:381
+#@ sapphire-wp
+msgid "Choose from the existing sidebars, the one you want this page to use."
+msgstr ""
+
+#: framework/modules/ewf-layout/ewf-modLayout.php:408
+#@ sapphire-wp
+msgid "Use sidebar"
+msgstr ""
+
+#: framework/modules/ewf-layout/ewf-modLayout.php:418
+#@ sapphire-wp
+msgid "You can choose the page layout from by clicking one for the following icons."
+msgstr ""
+
+#: framework/modules/ewf-layout/ewf-modLayout.php:449
+#: framework/modules/ewf-layout/ewf-modLayout.php:486
+#@ sapphire-wp
+msgid "Specify the sidebar title"
+msgstr ""
+
+#: framework/modules/ewf-layout/ewf-modLayout.php:449
+#: framework/modules/ewf-layout/ewf-modLayout.php:486
+#@ sapphire-wp
+msgid "Sidebar title"
+msgstr ""
+
+#: framework/modules/ewf-layout/ewf-modLayout.php:450
+#: framework/modules/ewf-layout/ewf-modLayout.php:487
+#@ sapphire-wp
+msgid "Add a sidebar description"
+msgstr ""
+
+#: framework/modules/ewf-layout/ewf-modLayout.php:450
+#: framework/modules/ewf-layout/ewf-modLayout.php:487
+#@ sapphire-wp
+msgid "Sidebar description"
+msgstr ""
+
+#: framework/modules/ewf-layout/ewf-modLayout.php:460
+#: framework/modules/ewf-layout/ewf-modLayout.php:467
+#@ sapphire-wp
+msgid "Create sidebar"
+msgstr ""
+
+#: framework/modules/ewf-layout/ewf-modLayout.php:477
+#@ sapphire-wp
+msgid "Are you sure you want to delete sidebar: <strong>Blog Sidebar</strong>"
+msgstr ""
+
+#: framework/modules/ewf-layout/ewf-modLayout.php:481
+#@ sapphire-wp
+msgid "Delete sidebar"
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:155
+#: framework/plugins/plugins-required.php:52
+#@ tgmpa
+#@ sapphire-wp
+msgid "Install Required Plugins"
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:156
+#: framework/plugins/plugins-required.php:53
+#@ tgmpa
+#@ sapphire-wp
+msgid "Install Plugins"
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:157
+#: framework/plugins/plugins-required.php:54
+#, php-format
+#@ tgmpa
+#@ sapphire-wp
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:158
+#@ tgmpa
+msgid "Something went wrong."
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:159
+#: framework/plugins/plugins-required.php:56
+#, php-format
+#@ sapphire-wp
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/plugins/plugins-activation.php:160
+#: framework/plugins/plugins-required.php:57
+#, php-format
+#@ sapphire-wp
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/plugins/plugins-activation.php:161
+#: framework/plugins/plugins-required.php:58
+#, php-format
+#@ sapphire-wp
+msgid "Sorry, but you do not have the correct permissions to install the %s plugin. Contact the administrator of this site for help on getting the plugin installed."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %s plugins. Contact the administrator of this site for help on getting the plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/plugins/plugins-activation.php:162
+#: framework/plugins/plugins-required.php:59
+#, php-format
+#@ sapphire-wp
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/plugins/plugins-activation.php:163
+#: framework/plugins/plugins-required.php:60
+#, php-format
+#@ sapphire-wp
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/plugins/plugins-activation.php:164
+#: framework/plugins/plugins-required.php:61
+#, php-format
+#@ sapphire-wp
+msgid "Sorry, but you do not have the correct permissions to activate the %s plugin. Contact the administrator of this site for help on getting the plugin activated."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %s plugins. Contact the administrator of this site for help on getting the plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/plugins/plugins-activation.php:165
+#: framework/plugins/plugins-required.php:62
+#, php-format
+#@ sapphire-wp
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/plugins/plugins-activation.php:166
+#: framework/plugins/plugins-required.php:63
+#, php-format
+#@ sapphire-wp
+msgid "Sorry, but you do not have the correct permissions to update the %s plugin. Contact the administrator of this site for help on getting the plugin updated."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %s plugins. Contact the administrator of this site for help on getting the plugins updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/plugins/plugins-activation.php:167
+#: framework/plugins/plugins-required.php:64
+#@ sapphire-wp
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/plugins/plugins-activation.php:168
+#: framework/plugins/plugins-required.php:65
+#@ sapphire-wp
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/plugins/plugins-activation.php:169
+#: framework/plugins/plugins-required.php:66
+#@ tgmpa
+#@ sapphire-wp
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:170
+#@ tgmpa
+msgid "Return to the dashboard"
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:171
+#: framework/plugins/plugins-activation.php:1840
+#: framework/plugins/plugins-required.php:67
+#@ tgmpa
+#@ sapphire-wp
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:173
+#, php-format
+#@ tgmpa
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:174
+#@ tgmpa
+msgid "Dismiss this notice"
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:1085
+#@ tgmpa
+msgid "External Link"
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:1090
+#@ tgmpa
+msgid "Private Repository"
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:1093
+#@ tgmpa
+msgid "Pre-Packaged"
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:1097
+#@ tgmpa
+msgid "WordPress Repository"
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:1100
+#@ tgmpa
+msgid "Required"
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:1100
+#@ tgmpa
+msgid "Recommended"
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:1103
+#@ tgmpa
+msgid "Not Installed"
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:1105
+#@ tgmpa
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:1275
+#, php-format
+#@ tgmpa
+msgid "No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:1291
+#@ tgmpa
+msgid "Plugin"
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:1292
+#@ tgmpa
+msgid "Source"
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:1293
+#@ tgmpa
+msgid "Type"
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:1294
+#@ tgmpa
+msgid "Status"
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:1312
+#@ tgmpa
+msgid "Install"
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:1313
+#@ tgmpa
+msgid "Activate"
+msgstr ""
+
+#. gettext fix: identical singular and plural forms found, that may be ambiguous! Please check the code!
+#: framework/plugins/plugins-activation.php:1538
+#: framework/plugins/plugins-activation.php:172
+#@ tgmpa
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/plugins/plugins-activation.php:1823
+#@ tgmpa
+msgid "Install package not available."
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:1824
+#, php-format
+#@ tgmpa
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:1825
+#@ tgmpa
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:1826
+#@ tgmpa
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:1827
+#@ tgmpa
+msgid "Plugin install failed."
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:1828
+#@ tgmpa
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:1839
+#@ tgmpa
+msgid "Plugin activation failed."
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:1949
+#@ tgmpa
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:1950
+#, php-format
+#@ tgmpa
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:1950
+#: framework/plugins/plugins-activation.php:1959
+#@ tgmpa
+msgid "Show Details"
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:1950
+#: framework/plugins/plugins-activation.php:1959
+#@ tgmpa
+msgid "Hide Details"
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:1951
+#@ tgmpa
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:1952
+#, php-format
+#@ tgmpa
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:1956
+#@ tgmpa
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:1957
+#, php-format
+#@ tgmpa
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:1958
+#, php-format
+#@ tgmpa
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:1959
+#, php-format
+#@ tgmpa
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:1960
+#@ tgmpa
+msgid "All installations have been completed."
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:1961
+#, php-format
+#@ tgmpa
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/plugins/plugins-activation.php:2052
+#@ tgmpa
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: framework/plugins/plugins-required.php:55
+#@ sapphire-wp
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: framework/plugins/plugins-required.php:68
+#, php-format
+#@ sapphire-wp
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: framework/widgets/__widget-brochure.php:8
+#: framework/widgets/__widget-contact-info.php:8
+#: framework/widgets/widget-flickr.php:8
+#@ sapphire-wp
+msgid "A widget that displays brochure item"
+msgstr ""
+
+#: framework/widgets/__widget-brochure.php:10
+#@ sapphire-wp
+msgid "EWF - Brochure"
+msgstr ""
+
+#: framework/widgets/__widget-brochure.php:50
+#: framework/widgets/__widget-navigation.php:96
+#: framework/widgets/widget-portfolio-filters.php:94
+#@ sapphire-wp
+msgid "Section title:"
+msgstr ""
+
+#: framework/widgets/__widget-brochure.php:55
+#@ sapphire-wp
+msgid "Link title:"
+msgstr ""
+
+#: framework/widgets/__widget-brochure.php:60
+#@ sapphire-wp
+msgid "File URL:"
+msgstr ""
+
+#: framework/widgets/__widget-contact-info.php:10
+#@ sapphire-wp
+msgid "EWF - Contact Info"
+msgstr ""
+
+#: framework/widgets/__widget-contact-info.php:71
+#: framework/widgets/widget-contact-form.php:58
+#: framework/widgets/widget-flickr.php:58
+#: framework/widgets/widget-latest-posts.php:104
+#: framework/widgets/widget-social-media.php:118
+#@ sapphire-wp
+msgid "Title:"
+msgstr ""
+
+#: framework/widgets/__widget-contact-info.php:81
+#@ sapphire-wp
+msgid "E-mail:"
+msgstr ""
+
+#: framework/widgets/__widget-contact-info.php:86
+#@ sapphire-wp
+msgid "Phone:"
+msgstr ""
+
+#: framework/widgets/__widget-navigation.php:8
+#: framework/widgets/widget-portfolio-filters.php:8
+#@ sapphire-wp
+msgid "A widget that displays sub pages navigation"
+msgstr ""
+
+#: framework/widgets/__widget-navigation.php:10
+#@ sapphire-wp
+msgid "EWF - Navigation"
+msgstr ""
+
+#: framework/widgets/__widget-navigation.php:122
+#@ sapphire-wp
+msgid "Show parent"
+msgstr ""
+
+#: framework/widgets/widget-call-to-action.php:8
+#@ sapphire-wp
+msgid "A widget that displays a call to action section"
+msgstr ""
+
+#: framework/widgets/widget-call-to-action.php:10
+#@ sapphire-wp
+msgid "EWF - Call to action"
+msgstr ""
+
+#: framework/widgets/widget-call-to-action.php:57
+#@ sapphire-wp
+msgid "Button title:"
+msgstr ""
+
+#: framework/widgets/widget-call-to-action.php:62
+#@ sapphire-wp
+msgid "Button link:"
+msgstr ""
+
+#: framework/widgets/widget-call-to-action.php:67
+#@ sapphire-wp
+msgid "Text:"
+msgstr ""
+
+#: framework/widgets/widget-contact-form.php:7
+#@ sapphire-wp
+msgid "A widget that displays a contact form created with Contact Form 7"
+msgstr ""
+
+#: framework/widgets/widget-contact-form.php:9
+#@ sapphire-wp
+msgid "EWF - Contact Form 7"
+msgstr ""
+
+#: framework/widgets/widget-contact-form.php:63
+#@ sapphire-wp
+msgid "Contact Form:"
+msgstr ""
+
+#: framework/widgets/widget-flickr.php:10
+#@ sapphire-wp
+msgid "EWF - Flickr"
+msgstr ""
+
+#: framework/widgets/widget-flickr.php:63
+#@ sapphire-wp
+msgid "Gallery or User ID:"
+msgstr ""
+
+#: framework/widgets/widget-flickr.php:68
+#@ sapphire-wp
+msgid "Number of items:"
+msgstr ""
+
+#: framework/widgets/widget-latest-posts.php:8
+#@ sapphire-wp
+msgid "A widget that displays popular posts from blog"
+msgstr ""
+
+#: framework/widgets/widget-latest-posts.php:10
+#@ sapphire-wp
+msgid "EWF - Latest Posts"
+msgstr ""
+
+#: framework/widgets/widget-latest-posts.php:109
+#@ sapphire-wp
+msgid "How many post to show:"
+msgstr ""
+
+#: framework/widgets/widget-portfolio-filters.php:10
+#@ sapphire-wp
+msgid "EWF - Project Filter"
+msgstr ""
+
+#: framework/widgets/widget-portfolio-filters.php:99
+#@ sapphire-wp
+msgid "All Work Title:"
+msgstr ""
+
+#: framework/widgets/widget-portfolio-filters.php:105
+#@ sapphire-wp
+msgid "Show portfolio link"
+msgstr ""
+
+#: framework/widgets/widget-social-media.php:8
+#@ sapphire-wp
+msgid "A widget that displays social media icons designed for header top"
+msgstr ""
+
+#: framework/widgets/widget-social-media.php:10
+#@ sapphire-wp
+msgid "EWF - Social Media"
+msgstr ""
+
+#: framework/widgets/widget-social-media.php:123
+#@ sapphire-wp
+msgid "Facebook profile URL:"
+msgstr ""
+
+#: framework/widgets/widget-social-media.php:128
+#@ sapphire-wp
+msgid "Twitter profile URL:"
+msgstr ""
+
+#: framework/widgets/widget-social-media.php:133
+#@ sapphire-wp
+msgid "Google Plus profile URL:"
+msgstr ""
+
+#: framework/widgets/widget-social-media.php:138
+#@ sapphire-wp
+msgid "Pinterest profile URL:"
+msgstr ""
+
+#: framework/widgets/widget-social-media.php:143
+#@ sapphire-wp
+msgid "YouTube profile URL:"
+msgstr ""
+
+#: framework/widgets/widget-social-media.php:148
+#@ sapphire-wp
+msgid "Dribbble profile URL:"
+msgstr ""
+
+#: framework/widgets/widget-social-media.php:153
+#@ sapphire-wp
+msgid "Tumblr profile URL:"
+msgstr ""
+
+#: framework/widgets/widget-social-media.php:158
+#@ sapphire-wp
+msgid "Instagram profile URL:"
+msgstr ""
+
+#: framework/widgets/widget-social-media.php:163
+#@ sapphire-wp
+msgid "RSS Feed URL:"
+msgstr ""
+
+#: search.php:13
+#@ sapphire-wp
+msgid "No posts were found!"
+msgstr ""
+
+#: search.php:15
+#@ sapphire-wp
+msgid "Search results for"
+msgstr ""
+
+#: templates/__template-blog-item.php:73
+#: templates/__template-blog-item.php:98
+#: templates/blog-columns-full.php:57
+#: templates/blog-item-default.php:56
+#: templates/blog-item-timeline.php:57
+#@ sapphire-wp
+msgid "in"
+msgstr ""
+
+#: templates/__template-blog-item.php:75
+#: templates/__template-blog-item.php:101
+#: templates/blog-columns-full.php:59
+#: templates/blog-item-default.php:58
+#: templates/blog-item-timeline.php:59
+#@ sapphire-wp
+msgid "comments"
+msgstr ""
+
+#: templates/__template-blog-item.php:82
+#: templates/blog-item-default.php:76
+#@ sapphire-wp
+msgid "Tags"
+msgstr ""
+
+#: templates/blog-columns-full.php:55
+#: templates/blog-item-default.php:54
+#: templates/blog-item-timeline.php:55
+#@ sapphire-wp
+msgid "Posted by"
+msgstr ""
+

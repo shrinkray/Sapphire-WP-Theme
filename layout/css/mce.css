@@ -1,0 +1,63 @@
+/* ==========================================================================
+   #Custom Lists
+   ========================================================================== */
+
+	/**
+ 	 * Custom lists
+ 	 *
+	 * 1. unstyled list
+	 *
+	 */
+	 
+	ul.unstyled { list-style-type: none; } /* 1 */
+	
+	ul.check,
+	ul.square ,
+	ul.plus,
+	ul.pin,
+	ul.circle { list-style: none; }
+	
+	ul.plus li:before,
+	ul.square li:before,
+	ul.pin li:before,
+	ul.circle li:before { 
+		position: relative;
+		top: -1px;
+		width: auto;
+		height: auto;
+		margin-right: 10px;
+		color: #6fd589;
+		font-family: 'FontAwesome';
+		font-size: 10px;
+		font-style: normal;
+	}
+	
+	ul.check li:before { 
+		position: relative;
+		display: inline-block;
+		top: 2px;
+		width: 22px;
+		height: 22px;
+		border-radius: 50%;
+		margin-right: 10px;
+		background-color: #6fd589;
+		color: #fff;
+		font-family: 'iconfontcustom';
+		font-size: 12px;
+		line-height: 22px;
+		font-style: normal;
+		font-weight: bold;
+		text-align: center;
+	}
+	
+	ul.check li,
+	ul.circle li { margin-bottom: 20px; }
+	
+	ul.check li:last-child,
+	ul.circle li:last-child { margin-bottom: 0; }
+	
+	ul.check li:before { content: "?"; }
+	ul.plus li:before { content: "?"; }
+	ul.pin li:before { content: "?"; }	
+	ul.circle li:before { content: "?"; }
+	ul.square li:before { content: "?"; }

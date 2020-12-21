@@ -1,0 +1,22 @@
+/**
+ * /*
+ * Theme Name: Sapphire WordPress
+ * Theme URI: http://themeforest.net/user/bitpub/portfolio
+ * Description: A modern design with clean lines and styling for a wide variety of content. Exactly how a business design should be.
+ * Author: Bitpub
+ * Author URI: http://themeforest.net/user/bitpub
+ * Version: 1.0.2
+ * Tags: one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, flexible-width, custom-background, custom-colors, custom-header, custom-menu, featured-image-header, featured-images, full-width-template, theme-options, threaded-comments, translation-ready
+ * 
+ * License: GPLv2 or later
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * @format
+ */
+
+@import url('layout/css/base.css');
+@import url('layout/css/grid.css');
+@import url('layout/css/elements.css');
+@import url('layout/css/layout.css');
+@import url('layout/css/custom.css'); /* custom styles for site */
+@import url('layout/css/gravity-forms2.css'); /* custom styles for forms */
