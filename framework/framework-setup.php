@@ -195,33 +195,33 @@
 		
 		#  Plugin - Superfish
 		wp_enqueue_script('plugin-superfish'				, get_template_directory_uri().'/layout/js/superfish/superfish.js'						, array('jquery'),'1.0', true );    		
-		wp_enqueue_script('plugin-superfish-intent'			, get_template_directory_uri().'/layout/js/superfish/hoverIntent.js'					, array('jquery'),'1.0', true );    		
+		wp_enqueue_script('plugin-superfish-intent'			, get_template_directory_uri().'/layout/js/superfish/hoverIntent.js'					, array('jquery'),'1.0', true );
 		
 		
 		#  Plugin - BX Slider
-		wp_enqueue_script('plugin-bxslider'					, get_template_directory_uri().'/layout/js/bxslider/jquery.bxslider.min.js'				, array('jquery'),'1.0', true );    		
-		wp_enqueue_style('plugin-bxslider-css'				, get_template_directory_uri().'/layout/js/bxslider/jquery.bxslider.css' );
+		wp_enqueue_script('plugin-bxslider', get_template_directory_uri() . '/layout/js/bxslider/jquery.bxslider.min.js', array('jquery'), '1.0', true);
+		wp_enqueue_style('plugin-bxslider-css', get_template_directory_uri() . '/layout/js/bxslider/jquery.bxslider.css');
 		
 		#  Plugin - Magnific Popup
-		wp_enqueue_script('plugin-magnificpopup'			, get_template_directory_uri().'/layout/js/magnificpopup/jquery.magnific-popup.min.js'	, array('jquery'),'1.0', true );    		
-		wp_enqueue_style('plugin-magnificpopup-css'			, get_template_directory_uri().'/layout/js/magnificpopup/magnific-popup.css' );
-	
+		wp_enqueue_script('plugin-magnificpopup', get_template_directory_uri() . '/layout/js/magnificpopup/jquery.magnific-popup.min.js', array('jquery'), '1.0', true);
+		wp_enqueue_style('plugin-magnificpopup-css', get_template_directory_uri() . '/layout/js/magnificpopup/magnific-popup.css');
+		
 		#  Plugin - Waypoints
-		wp_enqueue_script('plugin-waypoints'				, get_template_directory_uri().'/layout/js/waypoints/waypoints.min.js'					, array('jquery'),'1.0', true );    		
-		wp_enqueue_script('plugin-waypoints-sticky'			, get_template_directory_uri().'/layout/js/waypoints/waypoints-sticky.min.js'			, array('jquery'),'1.0', true );    		
+		wp_enqueue_script('plugin-waypoints', get_template_directory_uri() . '/layout/js/waypoints/waypoints.min.js', array('jquery'), '1.0', true);
+		wp_enqueue_script('plugin-waypoints-sticky', get_template_directory_uri() . '/layout/js/waypoints/waypoints-sticky.min.js', array('jquery'), '1.0', true);
 		
 		
 		#  Plugin - Isotope
 		# wp_enqueue_script('plugin-isotope'					, get_template_directory_uri().'/layout/js/isotope/isotope.pkgd.min.js'					, array('jquery'),'1.0', true );    		
-			
-			
+		
+		
 		#  Plugin - Easy Piechart
-		wp_enqueue_script('plugin-piechart'					, get_template_directory_uri().'/layout/js/easypiechart/jquery.easypiechart.min.js'		, array('jquery'),'1.0', true );    		
+		wp_enqueue_script('plugin-piechart', get_template_directory_uri() . '/layout/js/easypiechart/jquery.easypiechart.min.js', array('jquery'), '1.0', true);
 		
 		
 		#  Plugin - Parallax
-		wp_enqueue_script('plugin-parallax'					, get_template_directory_uri().'/layout/js/parallax/jquery.parallax.min.js'				, array('jquery'),'1.0', true );    		
-					
+		wp_enqueue_script('plugin-parallax', get_template_directory_uri() . '/layout/js/parallax/jquery.parallax.min.js', array('jquery'), '1.0', true);
+		
 		
 		#  Plugin - Google Maps & GMap
 //		wp_enqueue_script('plugin-gapi'						, '//maps.google.com/maps/api/js?sensor=false'  									, array('jquery'),'1.0', true );
@@ -229,19 +229,19 @@
 		
 		
 		#  Plugin - Fontawesome
-		wp_enqueue_style('plugin-fontawesome-css'			, get_template_directory_uri().'/layout/js/fontawesome/font-awesome.min.css');
-		
+		wp_enqueue_style('plugin-fontawesome-css', get_template_directory_uri() . '/layout/js/fontawesome/font-awesome.min.css');
 		
 		
 		#  General style
-		wp_enqueue_style('theme-style'						, get_stylesheet_directory_uri().'/style.css' );
-		wp_add_inline_style('theme-style'					, ewf_admin_load_dynamicStyles() );
+		wp_enqueue_style('theme-style', get_stylesheet_directory_uri() . '/style.css');
+		wp_enqueue_style('app-style', get_stylesheet_directory_uri() . '/dist/app.css');
 		
+		wp_add_inline_style('theme-style', ewf_admin_load_dynamicStyles());
 		
 		#  Load Scripts & Plugins
-		wp_enqueue_script('plugins-js'						, get_template_directory_uri().'/layout/js/plugins.js'									, array('jquery'),'1.0', true );    		
-		wp_enqueue_script('scripts-js'						, get_template_directory_uri().'/layout/js/scripts.js'									, array('jquery'),'1.0', true );    		
-	
+		wp_enqueue_script('plugins-js', get_template_directory_uri() . '/layout/js/plugins.js', array('jquery'), '1.0', true);
+		wp_enqueue_script('scripts-js', get_template_directory_uri() . '/layout/js/scripts.js', array('jquery'), '1.0', true);
+		
 	}
 
 	
