@@ -1,0 +1,22 @@
+{
+  "name": "sapphire-wp",
+  "version": "1.1.0",
+  "description": "=== Sapphire WP === Contributors: bitpub, nicolaegabriel Tags: one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, flexible-width, custom-background, custom-colors, custom-header, custom-menu, featured-image-header, featured-images, full-width-template, theme-options, threaded-comments, translation-ready Requires at least: 3.9 Tested up to: 3.9.1 Stable tag: 1.0",
+  "main": "./layout/scripts/scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shrinkray/Sapphire-WP-Theme.git"
+  },
+  "author": "shrinkray",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shrinkray/Sapphire-WP-Theme/issues"
+  },
+  "homepage": "https://github.com/shrinkray/Sapphire-WP-Theme#readme",
+  "devDependencies": {
+    "laravel-mix": "^6.0.2"
+  }
+}
