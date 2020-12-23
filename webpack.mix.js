@@ -4,5 +4,11 @@ let mix = require('laravel-mix');
 mix
     //  .js('layout/js/app.js', 'dist/')
     .js('layout/js/app.js', 'dist/app.js')
-    .postCss('layout/css/layout.css', 'dist/app.css', [require('postcss-custom-properties')])
+    .postCss('layout/css/layout.css', 'dist/app.css', [
+        require('postcss-custom-properties'),
+        require('postcss-sorting')({
+            'properties-order': 'alphabetical'
+        }),
+        require('cssnano')
+    ])
     .browserSync({proxy: 'http://localhost:10018/'});
