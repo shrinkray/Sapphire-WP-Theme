@@ -241,6 +241,7 @@
 		#  Load Scripts & Plugins
 		wp_enqueue_script('plugins-js', get_template_directory_uri() . '/layout/js/plugins.js', array('jquery'), '1.0', true);
 		wp_enqueue_script('scripts-js', get_template_directory_uri() . '/layout/js/scripts.js', array('jquery'), '1.0', true);
+		wp_enqueue_script('app-js', get_template_directory_uri() . '/dist/app.js', array('jquery'), '1.0', true);
 		
 	}
 
