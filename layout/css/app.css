@@ -2,7 +2,8 @@
 @import 'grid.css';
 @import 'elements.css';
 @import 'layout.css';
-@import 'custom.css'; /* custom styles for site */
+@import 'custom.css';
+/* custom styles for site */
 @import 'gravity-forms2.css'; /* custom styles for forms */
 #wrap {
     background: cadetblue;
