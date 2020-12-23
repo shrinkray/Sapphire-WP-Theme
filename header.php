@@ -46,8 +46,13 @@
 </script>
 <!-- End Google Analytics Code -->
 
+<?php
+	
+	$siteUrl = get_site_url();
+
+?>
 <!-- Sales Force Tracking Script -->
-<script type="text/javascript" language="JavaScript" src="//www.plan2winsoftware.com/js/frs-app-96429.js"></script>
+<script type="text/javascript" language="JavaScript" src="<?php echo $siteUrl ?>/js/frs-app-96429.js"></script>
 <script type="text/javascript"></script>
 
 <!-- 
