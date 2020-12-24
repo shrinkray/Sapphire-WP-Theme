@@ -14,10 +14,4 @@
  * @format
  */
 
-@import url('layout/css/base.css');
-@import url('layout/css/grid.css');
-@import url('layout/css/elements.css');
-@import url('layout/css/layout.css');
-@import url('layout/css/custom.css');
-/* custom styles for site */
-@import url('layout/css/gravity-forms2.css'); /* custom styles for forms */
+
