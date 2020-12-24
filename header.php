@@ -18,10 +18,12 @@
 		 * For local and staging test sites
          * @favicon = string
 		 */
-  if ( $siteUrl !== $prodUrl ) {
+  if ( $siteUrl != $prodUrl ) {
+   
 	  $favicon = get_template_directory_uri().'/greg.png';
 	  echo '<link rel="shortcut icon" href="'.$favicon.'" />';
   } else {
+  
 		$favicon = get_option(EWF_SETUP_THNAME."_favicon", get_template_directory_uri().'/favicon.png');
 		echo '<link rel="shortcut icon" href="'.$favicon.'" />';
     }
@@ -31,7 +33,7 @@
 
 // New Google ReCaptcha V3 Script (below), 12-16-2018 //
 		
-		if ( $siteUrl !== $prodUrl ) {
+		if ( $siteUrl != $prodUrl ) {
 			// No recaptcha needed here
 		} else {
 ?>
@@ -53,7 +55,7 @@
 
 <?php
  
-	if ( $siteUrl !== $prodUrl ) {
+	if ( $siteUrl != $prodUrl ) {
 	    // No GA Object here
         // No Salesforce tracking link
     } else {
