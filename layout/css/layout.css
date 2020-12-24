@@ -1,3 +1,4 @@
+
 /**
  * Name: layout.css
  *	
@@ -345,9 +346,6 @@
 	#page-header {
 		padding: 35px 0;
 		margin-bottom: 50px;
-		/*
-		background: url(../images/bg-page-header.png) no-repeat center center; 
-		*/
 	}
 	
 	#page-header h2 {
@@ -386,7 +384,7 @@
 	
 	.timeline-2 {
 		margin: 10px 0;
-		background: url(../images/bg-horizontal-dot.png) repeat-x top+48px left;
+		/*background: url(../images/bg-horizontal-dot.png) repeat-x top+48px left;*/
 		list-style: none;
 		text-align: center; 
 	}
@@ -726,7 +724,7 @@
 		float: left; 
 		width: 100px;
 		min-height: 10px;
-		background: url(../images/bg-vertical-line.png) repeat-y top center; 
+		background: url(../images/bg-vertical-line.png) repeat-y top center;
 	}
 	
 	.left-side .blog-post:before {

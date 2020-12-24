@@ -195,17 +195,17 @@ h3 {
   height: 44px;
 }
 .icon.account {
-  background: url('/wp-content/uploads/icons.png') no-repeat 0 0;
+  background: url('../../images/icons.png') no-repeat 0 0;
 	width: 35px;
 	height: 44px;
 }
 .icon.call {
-  background: url('/wp-content/uploads/icons.png') no-repeat -37px 0;
+  background: url('../../images/icons.png') no-repeat -37px 0;
 	width: 36px;
 	height: 44px;
 }
 .icon.territory {
-  background: url('/wp-content/uploads/icons.png') no-repeat -75px 0;
+  background: url('../../images/icons.png') no-repeat -75px 0;
 	width: 36px;
 	height: 44px;
 }
