@@ -151,7 +151,7 @@
 	}
 	
 	function ewf_load_frontend_includes(){
-		$protocol = is_ssl() ? 'https' : 'http';
+	//	$protocol = is_ssl() ? 'https' : 'http';
 		
 		
 		#  Style  - Animate 
@@ -230,10 +230,10 @@
 		
 		
 		#  General style
-		wp_enqueue_style('theme-style', get_stylesheet_directory_uri() . '/style.css');
+		wp_enqueue_style('theme-style', get_stylesheet_directory_uri() . '/dist/style.css');
 		wp_enqueue_style('app-style', get_stylesheet_directory_uri() . '/dist/app.css');
 		
-		wp_add_inline_style('theme-style', ewf_admin_load_dynamicStyles());
+//		wp_add_inline_style('theme-style', ewf_admin_load_dynamicStyles());
 		
 		#  Load Scripts & Plugins
 		wp_enqueue_script('plugins-js', get_template_directory_uri() . '/layout/js/plugins.js', array('jquery'), '1.0', true);
@@ -241,10 +241,6 @@
 		wp_enqueue_script('app-js', get_template_directory_uri() . '/dist/app.js', array('jquery'), '1.0', true);
 		
 	}
-
-	
-
-	
 
 #	Load Dynamic Javascript Variables in the header
 #
@@ -282,4 +278,3 @@
 	}
 	
 
-?>
