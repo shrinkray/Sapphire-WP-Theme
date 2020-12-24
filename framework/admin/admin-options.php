@@ -1635,6 +1635,10 @@
 	/**
 	 *  EWF default dynamic styles are not be needed for site implementation
 	 */
+?>
+
+<!--  Removed ewf_admin_load_dynamicStyles() see admin-options.php  -->
+<?php
 	function ewf_admin_load_dynamicStyles(){
 	
 //	 include 'includes/ewf_theme_dynamic_styles.php';
