@@ -11,14 +11,29 @@
 	
     <!-- /// Favicons ////////  -->
 	<?php
+		$siteUrl = get_site_url();
+		$prodUrl = 'https://www.plan2winsoftware.com';
+		
+		/**
+		 * For local and staging test sites
+         * @favicon = string
+		 */
+  if ( $siteUrl !== $prodUrl ) {
+	  $favicon = get_template_directory_uri().'/greg.png';
+	  echo '<link rel="shortcut icon" href="'.$favicon.'" />';
+  } else {
 		$favicon = get_option(EWF_SETUP_THNAME."_favicon", get_template_directory_uri().'/favicon.png');
 		echo '<link rel="shortcut icon" href="'.$favicon.'" />';
+    }
 	?>
 
 	<?php wp_head(); 
 
 // New Google ReCaptcha V3 Script (below), 12-16-2018 //
-
+		
+		if ( $siteUrl !== $prodUrl ) {
+			// No recaptcha needed here
+		} else {
 ?>
 <style>#info-area{overflow:hidden;}#info-area::after{clear:both; content:' '; display:block}#info-area>*{width:819px; float:left; margin:0}#info-area>#info-areas{margin-left:-819px; background-color:rgb(51, 51, 51); width:100%}</style>
 	<script src="https://www.google.com/recaptcha/api.js?render=6LeZOYIUAAAAAHA_6ZOJ5MWfhX0GzvBfauwVwCYh"></script>
@@ -29,39 +44,51 @@
       });
   });
   </script>
-
+<?php
+        } // close else for recaptcha
+		?>
 	
 </head>
-<body <?php body_class(); ?>> 
-
-<!-- Google Analytics Code -->
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-35868397-1', 'auto');
-  ga('send', 'pageview');
-</script>
-<!-- End Google Analytics Code -->
+<body <?php body_class(); ?>>
 
 <?php
-	
-	$siteUrl = get_site_url();
+ 
+	if ( $siteUrl !== $prodUrl ) {
+	    // No GA Object here
+        // No Salesforce tracking link
+    } else {
+		?>
 
-?>
-<!-- Sales Force Tracking Script -->
-<script type="text/javascript" language="JavaScript" src="<?php echo $siteUrl ?>/js/frs-app-96429.js"></script>
-<script type="text/javascript"></script>
+        <!-- Google Analytics Code -->
+        <script>
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+                a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-<!-- 
+            ga('create', 'UA-35868397-1', 'auto');
+            ga('send', 'pageview');
+        </script>
 
+        <!-- Sales Force Tracking Script -->
+        <script type="text/javascript" language="JavaScript" src="<?php echo $siteUrl ?>/js/frs-app-96429.js"></script>
+		
+		<?php
+    }
+/**
+*
 8-9-18 GM:  This was found inside frs-app-96429.js script tags:   frt(96429); ... it was removed
 8-10-18 GM: Changed link from src="//links.plan2winsoftware.com/js/frs-app-96429.js" ... reason due to console error generated from SSL issue
 
-End Sales Force Script -->
-
+End Sales Force Script
+ */
+?>
 	<div id="wrap">
 	
     	<div id="header-top">
