@@ -40,5 +40,5 @@ $ npm run watch
   },
   ```
 ### Changelog 
-1.2 -- Add Laravel Mix, PostCSS, and BrowserSync
-1.0 -- Initial release
+* 1.2 -- Add Laravel Mix, PostCSS, and BrowserSync
+* 1.0 -- Initial release
