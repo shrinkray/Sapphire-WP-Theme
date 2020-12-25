@@ -11,7 +11,8 @@ In 2013 this was a modern design with clean lines and styling for a wide variety
 * translation ready 
 
 ## Install Laravel Mix Webpack
-Navigate to the root of the Sapphire WP theme
+[Laravel Mix Installation Docs](https://laravel-mix.com/docs/6.0/installation)
+
 ``` 
 $ npm init -y
 $ npm install laravel-mix --save-dev
@@ -21,21 +22,7 @@ Depending on what you need, install all or some of these packages using
 `$ npm install <package-names> --save-dev`
 
 ```
-browser-sync
-browser-sync-webpack-plugin
-cross-env
-cssnano
-cssnano-preset-advanced
-cssnano-preset-default
-laravel-mix-postcss-config
-postcss
-postcss-cli
-postcss-custom-properties
-postcss-preset-env
-postcss-sorting
-postcss-url
-purify-css
-resolve-url-loader
+browser-sync browser-sync-webpack-plugin cross-env cssnano cssnano-preset-advanced cssnano-preset-default laravel-mix-postcss-config postcss postcss-cli postcss-custom-properties postcss-preset-env postcss-sorting postcss-url purify-css resolve-url-loader
 ```
 ## Running Mix
 ```
