@@ -1,24 +1,23 @@
 # Sapphire WP Legacy Theme
-
-Tags: one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, flexible-width, custom-background, custom-colors, custom-header, custom-menu, featured-image-header, featured-images, full-width-template, theme-options, threaded-comments, translation-ready
+_A legacy theme that gets a new life. This theme packaged with WP Bakery Visual Composer and a few other plugins._
 
 ## Description
 
-A modern design with clean lines and styling for a wide variety of content. Exactly how a business design should be. 
+In 2013 this was a modern design with clean lines and styling for a wide variety of content. Exactly how a business design should be. 
 
 ## Features:
-
 * powerful theme options panel
 * visual composer, revolution slider and contact form 7 integration
 * translation ready 
 
 ## Install Laravel Mix Webpack
 Navigate to the root of the Sapphire WP theme
-```
-npm init -y
-npm install laravel-mix --save-dev
+``` 
+$ npm init -y
+$ npm install laravel-mix --save-dev
 ```
 Depending on what you need, install all or some of these packages using 
+
 `$ npm install <package-names> --save-dev`
 
 ```
@@ -37,13 +36,11 @@ postcss-sorting
 postcss-url
 purify-css
 resolve-url-loader
-
 ```
 ## Running Mix
 ```
 $ npm run dev
 $ npm run watch
-
 ```
 ## Replace Scripts
 ```
@@ -56,6 +53,5 @@ $ npm run watch
   },
   ```
 ### Changelog 
-
-= 1.0 =
-* Initial release
+1.2 -- Add Laravel Mix, PostCSS, and BrowserSync
+1.0 -- Initial release
