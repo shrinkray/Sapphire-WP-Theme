@@ -21,12 +21,13 @@ require('laravel-mix-postcss-config');
 // const css = fs.readFileSync("layout/css/app.css", "utf8")
 
 mix
-    .js('layout/js/app.js', 'dist/app.js')
+
+    .js('layout/js/app.js', 'dist/js/app.js')
     .options({
-        processCssUrls: true
+        processCssUrls: false
     })
-    .css('style.css', 'dist/style.css')
-    .postCss('layout/css/app.css', 'dist/app.css', [
+    .css('style.css', 'dist/css/style.css')
+    .postCss('layout/css/app.css', 'dist/css/app.css', [
         require('postcss-custom-properties'),
         require('postcss-sorting')({
             'properties-order': 'alphabetical'
@@ -36,4 +37,5 @@ mix
         }),
         require('cssnano')
     ])
+    .copyDirectory( 'images', 'dist/images' )
     .browserSync({proxy: 'http://localhost:10018/'});

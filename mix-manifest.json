@@ -1,5 +1,14 @@
 {
-    "/dist/app.js": "/dist/app.js",
-    "/dist/app.css": "/dist/app.css",
-    "/dist/style.css": "/dist/style.css"
+    "/dist/js/app.js": "/dist/js/app.js",
+    "/dist/css/app.css": "/dist/css/app.css",
+    "/dist/css/style.css": "/dist/css/style.css",
+    "/dist/images/bg-double-dotted.gif": "/dist/images/bg-double-dotted.gif",
+    "/dist/images/bg-horizontal-dot.png": "/dist/images/bg-horizontal-dot.png",
+    "/dist/images/bg-single-dotted.gif": "/dist/images/bg-single-dotted.gif",
+    "/dist/images/bg-testimonial.png": "/dist/images/bg-testimonial.png",
+    "/dist/images/bg-vertical-dot.png": "/dist/images/bg-vertical-dot.png",
+    "/dist/images/bg-vertical-line.png": "/dist/images/bg-vertical-line.png",
+    "/dist/images/icons.png": "/dist/images/icons.png",
+    "/dist/images/next.png": "/dist/images/next.png",
+    "/dist/images/prev.png": "/dist/images/prev.png"
 }

@@ -154,9 +154,9 @@
 	//	$protocol = is_ssl() ? 'https' : 'http';
 		
 		
-		#  Style  - Animate 
-//		wp_enqueue_style('plugin-animate-css'				, get_template_directory_uri().'/layout/css/animate/animate.min.css' );
-		
+		#  Style  - Animate
+		wp_enqueue_style('plugin-animate-css'				, get_template_directory_uri().'/layout/css/animate/animate.min.css' );
+
 		
 		#  Style  - Font Awesome
 //		wp_enqueue_style('plugin-fontawesome-css'			, get_template_directory_uri().'/layout/css/fontawesome/font-awesome.min.css' );
@@ -166,25 +166,25 @@
 //		wp_enqueue_style('plugin-iconfontcustom-css'		, get_template_directory_uri().'/layout/css/iconfontcustom/iconfontcustom.css' );
 	
 		
-		
-		$_body_font = ewf_hlp_font_decode( EWF_SETUP_THNAME."_body_font", true);
-		if ($_body_font['font-family']){
-			$font_url = ewf_hlp_font_googleurl($_body_font['font-family']);
-			
-			#  Style - Google Fonts
-			wp_enqueue_style('plugin-googlefonts'			, $font_url);
-		}
+//
+//		$_body_font = ewf_hlp_font_decode( EWF_SETUP_THNAME."_body_font", true);
+//		if ($_body_font['font-family']){
+//			$font_url = ewf_hlp_font_googleurl($_body_font['font-family']);
+//
+//			#  Style - Google Fonts
+//			wp_enqueue_style('plugin-googlefonts'			, $font_url);
+//		}
 
 		
 		
-		
-		#  Plugin - Viewport
-		wp_enqueue_script('plugin-viewport'					, get_template_directory_uri().'/layout/js/viewport/jquery.viewport.js'					, array('jquery'),'1.0', true );    		
-		
-		
-		#  Plugin - Easing
-		wp_enqueue_script('plugin-easing'					, get_template_directory_uri().'/layout/js/easing/jquery.easing.1.3.js'					, array('jquery'),'1.0', true );    		
-		
+
+//		#  Plugin - Viewport
+//		wp_enqueue_script('plugin-viewport'					, get_template_directory_uri().'/layout/js/viewport/jquery.viewport.js'					, array('jquery'),'1.0', true );
+//
+//
+//		#  Plugin - Easing
+//		wp_enqueue_script('plugin-easing'					, get_template_directory_uri().'/layout/js/easing/jquery.easing.1.3.js'					, array('jquery'),'1.0', true );
+
 		
 		#  Plugin - Simpleplaceholder
 		wp_enqueue_script('plugin-simpleplaceholder'		, get_template_directory_uri().'/layout/js/simpleplaceholder/jquery.simpleplaceholder.js'	, array('jquery'),'1.0', true );    		
@@ -204,9 +204,9 @@
 //		wp_enqueue_style('plugin-magnificpopup-css', get_template_directory_uri() . '/layout/js/magnificpopup/magnific-popup.css');
 		
 		#  Plugin - Waypoints
-//		wp_enqueue_script('plugin-waypoints', get_template_directory_uri() . '/layout/js/waypoints/waypoints.min.js', array('jquery'), '1.0', true);
-//		wp_enqueue_script('plugin-waypoints-sticky', get_template_directory_uri() . '/layout/js/waypoints/waypoints-sticky.min.js', array('jquery'), '1.0', true);
-//
+		wp_enqueue_script('plugin-waypoints', get_template_directory_uri() . '/layout/js/waypoints/waypoints.min.js', array('jquery'), '1.0', true);
+		wp_enqueue_script('plugin-waypoints-sticky', get_template_directory_uri() . '/layout/js/waypoints/waypoints-sticky.min.js', array('jquery'), '1.0', true);
+
 		
 		#  Plugin - Isotope
 		# wp_enqueue_script('plugin-isotope'					, get_template_directory_uri().'/layout/js/isotope/isotope.pkgd.min.js'					, array('jquery'),'1.0', true );    		
@@ -230,15 +230,15 @@
 		
 		
 		#  General style
-		wp_enqueue_style('theme-style', get_stylesheet_directory_uri() . '/dist/style.css');
-		wp_enqueue_style('app-style', get_stylesheet_directory_uri() . '/dist/app.css');
+		wp_enqueue_style('theme-style', get_stylesheet_directory_uri() . '/dist/css/style.css');
+		wp_enqueue_style('app-style', get_stylesheet_directory_uri() . '/dist/css/app.css');
 		
 //		wp_add_inline_style('theme-style', ewf_admin_load_dynamicStyles());
 		
 		#  Load Scripts & Plugins
 		wp_enqueue_script('plugins-js', get_template_directory_uri() . '/layout/js/plugins.js', array('jquery'), '1.0', true);
 		wp_enqueue_script('scripts-js', get_template_directory_uri() . '/layout/js/scripts.js', array('jquery'), '1.0', true);
-		wp_enqueue_script('app-js', get_template_directory_uri() . '/dist/app.js', array('jquery'), '1.0', true);
+		wp_enqueue_script('app-js', get_template_directory_uri() . '/dist/js/app.js', array('jquery'), '1.0', true);
 		
 	}
 
