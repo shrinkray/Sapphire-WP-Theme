@@ -21,8 +21,7 @@ require('laravel-mix-postcss-config');
 // const css = fs.readFileSync("layout/css/app.css", "utf8")
 
 mix
-
-    .js('layout/js/app.js', 'dist/js/app.js')
+//    .js('layout/js/app.js', 'dist/js/app.js')
     .options({
         processCssUrls: false
     })
