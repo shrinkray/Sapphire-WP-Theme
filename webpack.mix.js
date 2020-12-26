@@ -13,14 +13,6 @@ let mix = require('laravel-mix');
 require('laravel-mix-postcss-config');
 let { CleanWebpackPlugin } = require("clean-webpack-plugin");
 
-// Commented out assignments are from the postcss-url plugin page example
-// const fs = require("fs")
-// const postcss = require("postcss")
-// const url = require("postcss-url")
-//
-// // css to be processed
-// const css = fs.readFileSync("layout/css/app.css", "utf8")
-
 mix
 //    .js('layout/js/app.js', 'dist/js/app.js')
     .options({
@@ -49,7 +41,7 @@ mix
                 // Write Logs to Console
                 // (Always enabled when dry is true)
                 // default: false
-                verbose: true,
+                verbose: false,
 
                 // Automatically remove all unused webpack assets on rebuild
                 // default: true

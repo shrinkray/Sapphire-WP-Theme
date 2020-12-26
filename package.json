@@ -29,7 +29,6 @@
     "cssnano-preset-advanced": "^4.0.7",
     "cssnano-preset-default": "^4.0.7",
     "laravel-mix": "^6.0.3",
-    "laravel-mix-clean": "^0.1.0",
     "laravel-mix-postcss-config": "^1.4.0",
     "postcss": "^8.2.1",
     "postcss-cli": "^8.3.1",
